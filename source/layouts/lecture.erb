@@ -1,0 +1,58 @@
+<% wrap_layout :layout do %>
+<% current_lecture_id = current_page.data.lecture_id %>
+<% lecture = data.lectures.lectures.find {|l| l.id == current_lecture_id} %>
+
+<section class="content-box">
+                        <div class="lecture">
+                                        <% if lecture.lecturer_pic == true %>
+                                <div class="lecture-img-box">
+                                        <img src="/<%= current_lecture_id %>/lecturer.jpg" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
+                                        <div class="lecture-img-layer"></div>
+                                        <% if lecture.company_pic == true %>
+                                        <div class="lecture-img-logo" style="<%= current_page.data.company_pic_style %>">
+                                                <img src="/<%= current_lecture_id %>/company.jpg" alt=""/ >
+                                        </div>
+                                        <% end %>
+                                </div>
+                                <% end %>
+                                <div class="lecture-content">
+                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date) %>, <%= lecture.time %></span></div>
+                                        <h1 class="big-title lecture-title">
+                                                <a href="/<%= current_lecture_id %>"><%= lecture.title %></a>
+                                        </h1>
+                                        <div class="lecture-author"><%= lecture.lecturer%>, <%= lecture.lecturer_company %></div>
+                                        <div class="lecture-text">
+                                        <%= lecture.description%>
+                                        </div>
+
+                                        <% if lecture.location %>
+                                        <div class="lecture-location">
+                                        <%= lecture.location %>
+                                        </div>
+                                        <% end %>
+
+                                        
+                                </div>
+                        </div>
+                </section>
+<% if lecture.youtube_id || lecture.speakerdeck_id %>
+<section class="content-box">
+                        <div class="two-cols">
+                                <% if lecture.youtube_id %>
+                                <div class="col">
+                                        <h2 class="med-title">Видеозапись</h2>
+                                        <iframe width="<%= current_page.data.youtube_width.nil? ? 460 : current_page.data.youtube_width %>" height="<%= current_page.data.youtube_height.nil? ? 407 : current_page.data.youtube_height %>" src="//www.youtube.com/embed/<%= lecture.youtube_id %>" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <% end %>
+                                
+                                <% if lecture.speakerdeck_id%>
+                                <div class="col">
+                                        <h2 class="med-title">Слайды</h2>
+                                        <script async class="speakerdeck-embed" data-id="<%= lecture.speakerdeck_id %>" data-ratio="<%= current_page.data.speakerdeck_ratio.nil? ? "1.3333333333" : current_page.data.speakerdeck_ratio %>" src="//speakerdeck.com/assets/embed.js"></script>
+                                </div>
+                                <% end %>
+                        
+                        </div>
+                </section>
+<% end %>
+<% end %>

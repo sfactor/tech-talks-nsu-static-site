@@ -17,6 +17,7 @@
         "speakerdeck_id": null,
         "out_of_the_blue": true
 },
+
 {
         "id": 62,
         "season": "2014autumn",
@@ -30,7 +31,8 @@
         "description": "Атаки по сторонним каналам (side channel attacks) — это вид атак на реализации криптографических алгоритмов. Подробнее о них мы говорили на <a href = \"/55\">предыдущей лекции</a>.<br/><br/>На этот раз мы поговорим о защите криптосистем от атак по сторонним каналам. Мы обсудим общие принципы защиты от таких атак, а в качестве подробного примера рассмотрим атаки, использующие в качестве источника инфорамации данные о энергопотреблении устройства (power analysis).<br/><br/>Эта лекция будет полностью онлайновой. Посмотреть ее можно будет <a href=\"https://plus.google.com/events/cq4ltv46qeansa11is40456d1qs\">здесь</a>.",
         "location": null,
         "youtube_id": "AIqzgfgvRo0",
-        "speakerdeck_id": "22ee362b63a845e98e97e329753098e6"
+        "speakerdeck_id": "22ee362b63a845e98e97e329753098e6",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/zashchita-ot-atak-po-storonnim-kanalam"
 },
 
 {
@@ -46,7 +48,8 @@
         "description": "Ahead-of-time (AOT) компиляция, или статическая компиляция, не так давно объявлена компанией Oracle как одно из нововведений Java 9 — следующего мажорного релиза Java. Это объявление вызвало разнообразную реакцию в сообществе Java-программистов: некоторые удивляются почему только сейчас, кто-то в недоумении, потому что всегда считал, что AOT-компилятор для Java не возможен теоретически из-за богатых динамических возможностей Java, многие убеждены, что AOT не нужен для Java, потому что он не может конкурировать по производительности с JIT, который использует динамический профиль исполнения для оптимизации программ на лету.  <br/><br/> В этом докладе я попробую развеять распространенные мифы, которые сложились вокруг AOT-компиляции Java, расскажу почему AOT-компиляция возможна с сохранением всех динамических особенностей Java, покажу где этот подход имеет преимущества в производительности перед динамической компиляцией (JIT) с технической точки зрения, а также обрисую для чего вообще может быть полезна AOT-компиляция для Java.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_id": "pcCR2PVB72k",
-        "speakerdeck_id": null 
+        "speakerdeck_id": "62b1a89803224a33ae02d12e94050047",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/aot-kompiliatsiia-java" 
 },
 
 {
@@ -62,8 +65,10 @@
         "description": "Гибкий и понятный код, легко поддающийся модификации и не скрывающий неприятных сюрпризов от своих создателей. Как оказывается, это не сказка! Всего этого позволяет добиться методика разработки через тестирование - test-driven development. Она основана на первый взгляд на парадоксальной идее создавать тесты до написания тестируемого прикладного кода.  <br/><br/> Мы расскажем о принципах TDD и их применении на разных стадиях разработки от проектирования до рефакторинга, о преимуществах и недостатках модульного тестирования в среде iOS, а также о применении TDD к уже существующим приложениям. ",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_id": "RvtMV0H_HIY",
-        "speakerdeck_id": null 
+        "speakerdeck_id": "ee2691774b5a40d19594527781c86881", 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/tdd-razrabotka-chieriez-tiestirovaniie-dlia-ios"
 },
+
 {
         "id": 59,
         "season": "2014autumn",
@@ -77,8 +82,10 @@
         "description": "Вы наверняка слышали, что в последнее время далеко не все теоремы доказываются вручную (<a href=\"http://www.sciencedirect.com/science/article/pii/S0167642309000240\">вот</a>, например, автоматизированный вывод свойств вероятностных алгоритмов, а <a href=\"http://www.ams.org/notices/200811/tx081101382p.pdf\">вот</a> полностью автоматическое доказательство всем известной теоремы о четырех красках). <br/><br/> Как именно работают системы автоматических доказательств и что за языки лежат в их основе? Похоже ли построение автоматических доказательств на программирование? Могу ли я доказывать свои любимые теоремы на C или C++? <br/><br/> В рамках лекции прозвучат ответы на эти и другие вопросы, а также будет проведен небольшой вводный инструктаж по <a href=\"http://en.wikipedia.org/wiki/Coq\">Coq</a>.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_id": null,
-        "speakerdeck_id": null 
+        "speakerdeck_id": "950acee36c804fd995122e003b7d057d",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/avtomatichieskoie-dokazatiel-stvo-tieoriem" 
 },
+
 {
         "id": 58,
         "season": "2014autumn",
@@ -92,8 +99,10 @@
         "description": "Если вы интересуетесь веб-разработкой, то вы наверняка слышали слово \"highload\". Это модно, это интересно, все хотят это попробовать на себе. Но мало кто знает, что на самом деле значит \"highload\" или \"высокие нагрузки\" и что нужно знать, чтобы правильно \"готовить\" высоконагруженный проект. <br/><br/> Мы поговорим о том, что же такое highload, узнаем, с какими проблемами может сталкнуться условный веб-проект при росте нагрузки и попробуем решить эти проблемы. Также мы обсудим, какие подходы и инструменты должен знать веб-разработчик, чтобы успешно справиться с любыми нагрузками.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_id": "QU1g_M2-Wdg",
-        "speakerdeck_id": null 
+        "speakerdeck_id": "5be241504c660132129f2ee134ae9694",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/chto-takoie-highload" 
 },
+
 {
         "id": 57,
         "season": "2014autumn",
@@ -107,10 +116,11 @@
         "description": "Несмотря на то, что функциональное программирование существует уже 60 лет, до сих пор оно оставалось в тени императивного программирования, а разработчики о нем знали лишь потому, что в университетах иногда есть некая туманная дисциплина с таким названием. Но сегодня, когда стало ясно, что ООП не является панацеей в борьбе со сложностью ПО, о функциональном программировании внезапно вспомнили: оказалось, что идеи, которые оно предлагает, помогают решать традиционные задачи более простым и элегантным способом. Современные мэйнстримные языки, в развитии своем исчерпав все лимиты из ООП и императивного программирования, двинулись в сторону функционального программирования.<br/><br/> В лекции будет рассказано о наиболее значимых идеях и принципах, которые вышли из мира функционального программирования и с успехом покоряют умы современных мэйнстрим-разработчиков.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_id": "_hVgX-aKXBU",
-        "speakerdeck_id": "6ca75c704fbc0132493b0a7b94f992b5" 
+        "speakerdeck_id": "6ca75c704fbc0132493b0a7b94f992b5",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/back-to-the-future-funktsional-noie-proghrammirovaniie-vchiera-i-sieghodnia" 
 },
-{
 
+{
         "id": 56,
         "season": "2014autumn",
         "date": "2014-10-28",
@@ -123,10 +133,11 @@
         "description": "Что лучше: UTF-8, UTF-16 или UTF-32? Сколькими байтами кодируется одна буква в UTF-16? Почему использование слова «буква» в предыдущем вопросе некорректно? Почему правильно реализовать strlen() или функцию переворачивания строки вовсе не так просто, как кажется? И почему, чёрт возьми, при попытке вывести русские буквы в консоль я вижу кракозябры? <br/><br/> В лекции будут даны ответы на эти и некоторые другие вопросы о Unicode. Бонусом мы расскажем краткую историю кодировок от начала времен (точнее, от времен DOS CP 866 и KOI8-R).",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_id": "8HRq_-c5fn0",
-        "speakerdeck_id": "91dd55904627013234d17a3f7c519e69" 
+        "speakerdeck_id": "91dd55904627013234d17a3f7c519e69",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/vsio-chto-vy-khotieli-znat-pro-unicode-no-boialis-sprosit"
 },
-{
 
+{
         "id": 55,
         "season": "2014autumn",
         "date": "2014-10-21",
@@ -139,10 +150,11 @@
         "description": "Эта лекция является введением в раздел криптоанализа, занимающийся атаками по сторонним каналам (side channel attacks). Мы поговорим о разных каналах, через которые может происходить утечка информации (энергопотребление, электромагнитное излучение, задержки выполнения программы...) и разберем несколько реально работающих атак такого типа на примерах реализации алгоритмов шифрования. Еще мы немного обсудим общие принципы защиты от подобных атак.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_id": "fJCSYL9jc7Y",
-        "speakerdeck_id": "5dc1d5c03bd20132ed0c3a2ff4764c03" 
+        "speakerdeck_id": "5dc1d5c03bd20132ed0c3a2ff4764c03",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/side-channel-attacks" 
 },
-{
 
+{
         "id": 54,
         "season": "2014autumn",
         "date": "2014-10-14",
@@ -155,10 +167,11 @@
         "description": "Spotify — один из самых популярных в мире сервисов стриминга музыки. Он появился в Швеции, стране, где 10 лет назад практически все онлайн-потребление музыки происходило через The Pirate Bay. За последние несколько лет Spotify не только обогнал все легальные и нелегальные способы распространения музыки в Скандинавии, но и начал активно завоевывать себе пространство по всей планете. Сейчас Spotify – это 58 стран и более 40 миллионов пользователей. Сервис быстро растет и при этом остается быстрым, устойчивым и постоянно доступным. К тому же так вышло, что архитектура, которую мы последовательно выстраиваем последние 6 лет, сравнительно недавно получила новое имя \"Microservices\" и стала дико популярна среди хипстеров от программирования. Мы поговорим о том, как это все выглядит изнутри и почему все получилось именно так. Митболлы и смуззи брать на лекцию не обязательно.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_id": "thxKVvJhJ8M",
-        "speakerdeck_id": "e8f7ffd035e80132343b52ef75abd035" 
+        "speakerdeck_id": "e8f7ffd035e80132343b52ef75abd035",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/pressing-play-at-spotify" 
 },
-{
 
+{
         "id": 53,
         "season": "2014autumn",
         "date": "2014-10-07",
@@ -173,8 +186,8 @@
         "youtube_id": "wMQH-Jd65Mo",
         "speakerdeck_id": null 
 },
-{
 
+{
         "id": 52,
         "season": "2014autumn",
         "date": "2014-09-23",
@@ -187,11 +200,11 @@
         "description": "Вот уже 14 лет как Джоэл Спольски придумал свой <a href=\"http://www.joelonsoftware.com/articles/fog0000000043.html\">Joel test</a>, но до сих пор далеко не все компании успешно проходят его. Мы поговорим о самых важных частях этого теста: о сервисах и инфраструктурных инструментах разработки (к ним относятся системы контроля версий, багтрекеры, continuous integration...) Принципы, о которых мы расскажем, одинаково применимы и для крупных компаний, и для стильных молодежных стартапов, и для студенческих курсовых проектов.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_id": "9sWD3RBwz30",
-        "speakerdeck_id": "9eddb330295d01321a10562d5512248d" 
-
+        "speakerdeck_id": "9eddb330295d01321a10562d5512248d",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/prokhodim-tiest-dzhoela" 
 },
-{
 
+{
         "id": 51,
         "season": "2014autumn",
         "date": "2014-09-22",
@@ -204,10 +217,11 @@
         "description": "Область информатики под названием «машинное обучение» уже давно перестала быть чисто академической дисциплиной и начала активно находить применение в практических задачах и коммерческих продуктах. Машинное обучение применяется в распознавании речи, распознавании лиц на фотографиях, роботизированных автомобилях, для рекомендаций в интернет-магазинах... Мы расскажем о типичных подходах к машинному обучению и о перспективах его использования в реальных продуктах.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_id": "Y4ooPiNgxwo",
-        "speakerdeck_id": "a22bdc7024a3013299ff7e85eb08a929"         
+        "speakerdeck_id": "a22bdc7024a3013299ff7e85eb08a929",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/machine-learning-for-fun-and-profit"         
 },
-{
 
+{
         "id": 50,
         "season": "2014spring",
         "date": "2014-05-12",
@@ -219,10 +233,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": "022b3710bc140131ff382eee13ef8423",         
+        "speakerdeck_url": "https://speakerdeck.com/industry101/razrabotka-po-v-inviestitsionnykh-bankakh",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 49,
         "season": "2014spring",
         "date": "2014-05-05",
@@ -234,10 +250,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 48,
         "season": "2014spring",
         "date": "2014-04-28",
@@ -248,11 +265,13 @@
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
-        "youtube_id": null,
-        "speakerdeck_id": null         
+        "youtube_url": "http://www.youtube.com/watch?v=PHmq0E8Q1C8",
+        "speakerdeck_id": "993f008abff14cc48550b4726d4635ca",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-inzhieniery-sozdavali-kontoru-dlia-inzhienierov"       ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 47,
         "season": "2014spring",
         "date": "2014-04-22",
@@ -263,11 +282,13 @@
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
-        "youtube_id": null,
-        "speakerdeck_id": null         
+        "youtube_url": "http://www.youtube.com/watch?v=8l65crLxgPQ",
+        "speakerdeck_id": "014ffc6a88cd4257a230c8128328b509",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/shtatnyi-paranoik-rol-ofitsiera-informatsionnoi-biezopasnosti-v-kompanii"         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 46,
         "season": "2014spring",
         "date": "2014-04-21",
@@ -278,11 +299,13 @@
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
-        "youtube_id": null,
-        "speakerdeck_id": null         
+        "youtube_url": "http://www.youtube.com/watch?v=_alDXh2met4",
+        "speakerdeck_id": "046730e382ab45bb8e10230f773fbca7",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-ia-stala-tiekhnichieskim-pisatieliem"         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 45,
         "season": "2014spring",
         "date": "2014-04-14",
@@ -293,26 +316,29 @@
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
-        "youtube_id": null,
-        "speakerdeck_id": null         
+        "youtube_url": "http://www.youtube.com/watch?v=tzrIQebeB94",
+        "speakerdeck_id": "56198f6d6577474cb268fd7fbbdf2b4c",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/tiestirovshchik-budushchiegho"         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 44,
         "season": "2014spring",
         "date": "2014-03-31",
         "time": "19:30",
-        "title": "Устраиваемся на работу в зарубежную компанию  ",
+        "title": "Устраиваемся на работу в зарубежную компанию",
         "lecturer": "Олег Годовых",
         "lecturer_company": "Noveo ",
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": "12264170fafb4350b6a124dd5d53dedd",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/ustraivaiemsia-na-rabotu-v-zarubiezhnuiu-kompaniiu"
 },
-{
 
+{
         "id": 43,
         "season": "2014spring",
         "date": "2014-03-25",
@@ -322,12 +348,13 @@
         "lecturer_company": "Google",
         "lecturer_pic": false,
         "company_pic": false,
-        "description": null,
+        "description": "Всем известно, что динамические языки а-ля JavaScript ужасно медленные... если у вашей виртуальной машины нет головы на плечах. На примере виртуальных машин для языков JavaScript (V8) и Dart (Dart VM) мы рассмотрим, как эта голова выглядит изнутри и на какие хитрости приходится пускаться башковитой VM, дабы одолеть семантические особенности динамического языка.<br/><br/>Слайды доклада можно найти вот <a href=\"http://mrale.ph/talks/techtalksnsu2014/\">тут</a>",
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 42,
         "season": "2014spring",
         "date": "2014-03-17",
@@ -338,11 +365,13 @@
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
-        "youtube_id": null,
-        "speakerdeck_id": "418ceac090250131fb6172fa4d45953a"         
+        "youtube_id": "http://www.youtube.com/watch?v=ivLcPULw3os",
+        "speakerdeck_id": "418ceac090250131fb6172fa4d45953a",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/zachiem-nuzhny-mieniedzhiery-proiektov"   ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 41,
         "season": "2014spring",
         "date": "2014-03-11",
@@ -354,10 +383,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": "M8ECDCo9RmM",
-        "speakerdeck_id": "8e66c49093ac0131ace20ee92466b6b2"         
+        "speakerdeck_id": "8e66c49093ac0131ace20ee92466b6b2",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/piat-avatarov-sistiemnogho-analitika"   ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 40,
         "season": "2014spring",
         "date": "2014-03-04",
@@ -369,10 +400,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": "2W903npGGMw",
-        "speakerdeck_id": "504f66d08f1a0131941f3e2d8ace8b00"         
+        "speakerdeck_id": "504f66d08f1a0131941f3e2d8ace8b00",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/chto-takoie-qa-i-kak-v-niegho-popast"   ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 39,
         "season": "2013autumn",
         "date": "2013-12-09",
@@ -384,10 +417,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "4a5c88008f3301317de21e8cfc450540"         
+        "speakerdeck_id": "4a5c88008f3301317de21e8cfc450540",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kross-platformiennaia-razrabotka-mobil-nykh-biznies-prilozhienii"         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 38,
         "season": "2013autumn",
         "date": "2013-12-02",
@@ -399,10 +434,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 37,
         "season": "2013autumn",
         "date": "2013-11-18",
@@ -414,10 +450,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 36,
         "season": "2013autumn",
         "date": "2013-11-11",
@@ -429,10 +466,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": "8HRq_-c5fn0",
-        "speakerdeck_id": "91dd55904627013234d17a3f7c519e69" 
+        "speakerdeck_id": "91dd55904627013234d17a3f7c519e69",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/vsio-chto-vy-khotieli-znat-pro-unicode-no-boialis-sprosit",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 35,
         "season": "2013autumn",
         "date": "2013-11-05",
@@ -444,10 +483,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "331f9aa028590131549d2e8802ef8f40"         
+        "speakerdeck_id": "331f9aa028590131549d2e8802ef8f40",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/iazyk-proghrammirovaniia-d-nikolai-tolstokulakov"         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 34,
         "season": "2013autumn",
         "date": "2013-10-29",
@@ -459,10 +500,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "6f6533b0285b01310ba602e468fe5747"         
+        "speakerdeck_id": "6f6533b0285b01310ba602e468fe5747"         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 33,
         "season": "2013autumn",
         "date": "2013-10-21",
@@ -474,10 +516,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 32,
         "season": "2013autumn",
         "date": "2013-10-14",
@@ -489,10 +532,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "28d8d630285a01310ba502e468fe5747"         
+        "speakerdeck_id": "28d8d630285a01310ba502e468fe5747",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/proiektsii-futamury-i-chastichnyie-vychislieniia-rienat-idrisov"         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 31,
         "season": "2013autumn",
         "date": "2013-10-07",
@@ -504,10 +549,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "9aa8773028b7013181ff6af78a846f16"         
+        "speakerdeck_id": "9aa8773028b7013181ff6af78a846f16",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/vviedieniie-v-diemostsienu-ivan-avdieiev",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 30,
         "season": "2013autumn",
         "date": "2013-09-30",
@@ -519,10 +566,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "efd3fcb0285a0131549e2e8802ef8f40"         
+        "speakerdeck_id": "efd3fcb0285a0131549e2e8802ef8f40",
+        "speakerdeck_url":"https://speakerdeck.com/techtalksnsu/informatsionnaia-biezopasnost-ruslan-piermiakov"         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 29,
         "season": "2013autumn",
         "date": "2013-09-24",
@@ -534,10 +583,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "493af050285801310ba402e468fe5747"         
+        "speakerdeck_id": "493af050285801310ba402e468fe5747",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/arkhitiektura-skype-alieksandr-komissarov"         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 28,
         "season": "2013autumn",
         "date": "2013-09-23",
@@ -549,10 +600,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "a8a8cfa028570131549e2e8802ef8f40"         
+        "speakerdeck_id": "a8a8cfa028570131549e2e8802ef8f40",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-sdielat-dota-like-ighru-siemion-korzunov"         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 27,
         "season": "2013autumn",
         "date": "2013-05-13",
@@ -564,10 +617,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": "F2YptTuVM6A",
-        "speakerdeck_id": "52e5fde0a126013053a74a029d149531"         
+        "speakerdeck_id": "52e5fde0a126013053a74a029d149531",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/mikhail-iermolienko-piervyi-opyt-ustroistva-na-rabotu",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 26,
         "season": "2013spring",
         "date": "2013-05-06",
@@ -579,10 +634,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 25,
         "season": "2013spring",
         "date": "2013-04-29",
@@ -594,10 +650,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": "vIf0lPlSoCc",
-        "speakerdeck_id": "1e614b3099cf013061f40edce4aa244a"         
+        "speakerdeck_id": "1e614b3099cf013061f40edce4aa244a",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/anton-kochiepasov-rabota-v-amierikanskikh-kompaniiakh-ot-sobiesiedovaniia-do-uvol-nieniia",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 24,
         "season": "2013spring",
         "date": "2013-04-22",
@@ -609,10 +667,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": "jw4QKTFds3c",
-        "speakerdeck_id": "2fe200908d9e0130e44822000a9d03e8"         
+        "speakerdeck_id": "2fe200908d9e0130e44822000a9d03e8",         
+        "speakerdeck_url": "https://speakerdeck.com/industry101/sierghiei-vysotskii-krasochnyi-mir-tiestirovaniia",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 23,
         "season": "2013spring",
         "date": "2013-04-15",
@@ -624,25 +684,29 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "fe126d8089fc0130b11712313d1a1d3b"         
+        "speakerdeck_id": "fe126d8089fc0130b11712313d1a1d3b",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/nikita-prokopov-kak-rabotat-v-kaliforniiskom-startapie-nie-uiezzhaia-iz-rossii"      ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 22,
         "season": "2013spring",
         "date": "2013-04-08",
         "time": "19:30",
-        "title": "Карьера программиста в научно-исследовательском институте",
+        "title": "Что может дать IT-специалисту работа в НИИ",
         "lecturer": "Ренат Идрисов, к.ф.-м.н.",
         "lecturer_company": "ИСИ СО РАН",
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
         "youtube_id": "NRa4SlubEEg",
-        "speakerdeck_id": "c26bb87084310130300612313b101275"         
+        "speakerdeck_id": "c26bb87084310130300612313b101275",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/rienat-idrisov-chto-mozhiet-dat-it-spietsialistu-rabota-v-nii"       ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 21,
         "season": "2013spring",
         "date": "2013-04-08",
@@ -654,10 +718,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": "qTEU5aw7xMs",
-        "speakerdeck_id": "8490b7d084300130a87112313d1860bb"         
+        "speakerdeck_id": "8490b7d084300130a87112313d1860bb",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/oliegh-godovykh-olimpiadnoie-proghrammirovaniie-i-motivatsiia-k-vysshiemu-obrazovaniiu",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 20,
         "season": "2013spring",
         "date": "2013-04-01",
@@ -669,10 +735,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": "oHOZMFO0cCY",
-        "speakerdeck_id": "85fcbc50842f013081d822000a1e92d1"         
+        "speakerdeck_id": "85fcbc50842f013081d822000a1e92d1",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/sasha-fienstier-rabota-v-tiekhpoddierzhkie-i-vnutrienniaia-razrabotka"    ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 19,
         "season": "2013spring",
         "date": "2013-03-25",
@@ -684,10 +752,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 18,
         "season": "2013spring",
         "date": "2013-03-18",
@@ -699,10 +768,11 @@
         "company_pic": false,
         "description": "Слайды доклада доступны вот <a href=\"http://prezi.com/xphxb90f-afn/sales-managers-work/\">тут</a>",
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 17,
         "season": "2013spring",
         "date": "2013-03-11",
@@ -714,10 +784,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": "5a241a008435013081d822000a1e92d1", 
+        "speakerdeck_url": "https://speakerdeck.com/industry101/alieksandr-poghriebniak-obzor-ighrovoi-industrii"
+
 },
 {
-
         "id": 16,
         "season": "2013spring",
         "date": "2013-03-04",
@@ -729,10 +800,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": "PaRoSFU4xC4",
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 15,
         "season": "2013spring",
         "date": "2013-02-25",
@@ -744,10 +816,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "21317aa08487013081d922000a1e92d1"         
+        "speakerdeck_id": "21317aa08487013081d922000a1e92d1",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/siemien-faktorovich-siervisnyie-i-produktovyie-kompanii"
+
 },
 {
-
         "id": 14,
         "season": "2013spring",
         "date": "2013-02-20",
@@ -759,10 +832,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "a003049084860130a87112313d1860bb"         
+        "speakerdeck_id": "a003049084860130a87112313d1860bb",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/siemien-faktorovich-profiessii-v-it-industrii",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 13,
         "season": "2012spring",
         "date": "2012-05-24",
@@ -774,10 +849,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 12,
         "season": "2012spring",
         "date": "2012-05-17",
@@ -789,10 +865,11 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": null         ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 11,
         "season": "2012spring",
         "date": "2012-05-03",
@@ -804,10 +881,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": "589f1bfc68a44ddb828b9e24c4258fa8",         
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/istorii-iz-zhizni-pro-sozdaniie-startapov-it-biznies-i-khakierstvo",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 10,
         "season": "2012spring",
         "date": "2012-04-26",
@@ -819,10 +898,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": "e67a10d5ede84e798327d6e8f802792f",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-proiti-sobiesiedovaniie-ustroit-sia-na-rabotu-i-uspieshno-zakryt-ispytatiel-nyi-srok-chto-rabotodatieli-ozhidaiut-ot-molodykh-razrabotchikov"   ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 9,
         "season": "2012spring",
         "date": "2012-04-19",
@@ -833,11 +914,13 @@
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
-        "youtube_id": null,
-        "speakerdeck_id": null         
+        "youtube_id": "http://www.youtube.com/watch?v=oHOZMFO0cCY",
+        "speakerdeck_id": "bb292d57c5284a5a868945eab2cb0c05",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/chto-takoie-rabota-v-tiekhpoddierzhkie-tiazhielo-li-zhiviotsia-sapportieru"   ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 8,
         "season": "2012spring",
         "date": "2012-04-12",
@@ -848,11 +931,13 @@
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
-        "youtube_id": null,
-        "speakerdeck_id": "c26bb87084310130300612313b101275"         
+        "youtube_id": "http://www.youtube.com/watch?v=NRa4SlubEEg",
+        "speakerdeck_id": "c26bb87084310130300612313b101275",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/rienat-idrisov-chto-mozhiet-dat-it-spietsialistu-rabota-v-nii" ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 7,
         "season": "2012spring",
         "date": "2012-04-12",
@@ -864,10 +949,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": "5fa372933fdf4eb797d3651da1670b3a",         
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-olimpiadnoie-proghrammirovaniie-nie-isportilo-moiu-zhizn-a-takzhie-o-pol-zie-fundamiental-nykh-znanii-v-niesier-ioznykh-zaniatiiakh",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 6,
         "season": "2012spring",
         "date": "2012-04-05",
@@ -879,10 +966,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": "e129217450ee4d06975f04357c96a12a",      
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/orghanizatsiia-tiestirovaniia-v-it-kompaniiakh-akadiemghorodka-kar-iernyi-put-tiestirovshchika"   ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 5,
         "season": "2012spring",
         "date": "2012-03-29",
@@ -894,10 +983,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": "c9a7c52ad8af40b5a0dda837e76170ed",        
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/mir-open-source-mir-vozmozhnostiei" ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 4,
         "season": "2012spring",
         "date": "2012-03-22",
@@ -909,10 +1000,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": "b82d888a333d41d9bcecf4b592c010ce",   
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-v-2gis-dielaiut-vieb-proiekty"      ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 3,
         "season": "2012spring",
         "date": "2012-03-15",
@@ -924,10 +1017,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": null         
+        "speakerdeck_id": "55acf5cb4e5a40958ec056c967b34df1",      
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/mietodologhii-razrabotki-po"   ,
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 2,
         "season": "2012spring",
         "date": "2012-03-10",
@@ -939,10 +1034,12 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "21317aa08487013081d922000a1e92d1"         
+        "speakerdeck_id": "21317aa08487013081d922000a1e92d1",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/siemien-faktorovich-siervisnyie-i-produktovyie-kompanii",
+	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-{
 
+{
         "id": 1,
         "season": "2012spring",
         "date": "2012-03-01",
@@ -954,10 +1051,9 @@
         "company_pic": false,
         "description": null,
         "youtube_id": null,
-        "speakerdeck_id": "a003049084860130a87112313d1860bb"         
+        "speakerdeck_id": "a003049084860130a87112313d1860bb",
+        "speakerdeck_url": "https://speakerdeck.com/industry101/siemien-faktorovich-profiessii-v-it-industrii",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 }
-
-
-
 ]
 }

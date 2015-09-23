@@ -91,7 +91,36 @@ require 'date'
                 end
 
                 return res
-end
+        end
+
+        def inflict_lectures number
+                s = number.to_s[-1]
+                res = ""
+                case s
+                        when "1"
+                        res = "лекцию"
+                        when "2"
+                        res = "лекции"
+                        when "3"
+                        res = "лекции"
+                        when "4"
+                        res = "лекции"
+                        when "5"
+                        res = "лекций"
+                        when "6"
+                        res = "лекций"
+                        when "7"
+                        res = "лекций"
+                        when "8"
+                        res = "лекций"
+                        when "9"
+                        res = "лекций"
+                        when "0"
+                        res = "лекций"
+                end
+
+                return res
+        end
 end
 set :css_dir, 'css'
 

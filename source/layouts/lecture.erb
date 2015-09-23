@@ -1,6 +1,21 @@
 <% wrap_layout :layout do %>
 <% current_lecture_id = current_page.data.lecture_id %>
 <% lecture = data.lectures.lectures.find {|l| l.id == current_lecture_id} %>
+<% youtube_id = nil %>
+
+<% if lecture.youtube_url %>
+<% youtube_id = /.*v=(.*)/.match(lecture.youtube_url)[1] %>
+<% end %>
+
+<% 
+
+                begin
+                        lecture_date = Date.parse(lecture.date)
+                rescue
+                        lecture_date = nil
+                end
+
+%>                 
 
 <section class="content-box">
                         <div class="lecture">
@@ -16,7 +31,13 @@
                                 </div>
                                 <% end %>
                                 <div class="lecture-content">
-                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date) %>, <%= lecture.time %></span></div>
+                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date) %>
+
+                                        <% if lecture_date >= Date.today %>
+                                                , <%= lecture.time %>
+                                        <% end %>
+                                        </span></div>
+
                                         <h1 class="big-title lecture-title">
                                                 <a href="/<%= current_lecture_id %>"><%= lecture.title %></a>
                                         </h1>
@@ -29,19 +50,24 @@
                                         <div class="lecture-location">
                                         <%= lecture.location %>
                                         </div>
+                                        <% if lecture.live_broadcast_url %>
+                                                <p>
+                                                        <a href="#" class="live-link">Прямая трансляция</a>
+                                                </p>
+                                        <% end %>
                                         <% end %>
 
                                         
                                 </div>
                         </div>
                 </section>
-<% if lecture.youtube_id || lecture.speakerdeck_id %>
+<% if youtube_id || lecture.speakerdeck_id %>
 <section class="content-box">
                         <div class="two-cols">
-                                <% if lecture.youtube_id %>
+                                <% if youtube_id %>
                                 <div class="col">
                                         <h2 class="med-title">Видеозапись</h2>
-                                        <iframe width="<%= current_page.data.youtube_width.nil? ? 460 : current_page.data.youtube_width %>" height="<%= current_page.data.youtube_height.nil? ? 407 : current_page.data.youtube_height %>" src="//www.youtube.com/embed/<%= lecture.youtube_id %>" frameborder="0" allowfullscreen></iframe>
+                                        <iframe width="<%= current_page.data.youtube_width.nil? ? 460 : current_page.data.youtube_width %>" height="<%= current_page.data.youtube_height.nil? ? 407 : current_page.data.youtube_height %>" src="//www.youtube.com/embed/<%= youtube_id %>" frameborder="0" allowfullscreen></iframe>
                                 </div>
                                 <% end %>
                                 

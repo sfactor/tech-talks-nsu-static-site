@@ -1,0 +1,152 @@
+---
+layout: layout
+---
+
+<% lecture_count = data.lectures.lectures.count %>
+<% lecture_word = inflict_lectures (lecture_count) %>
+
+		<section class="content-box">
+			<h1 class="med-title">C 2012 года мы провели 5 сезонов наших выступлений и суммарно прочитали <%= lecture_count%> <%= lecture_word %></h1>
+			<h2 class="secondary-title">Осень 2014: разработка и технологии</h2> 
+
+			<ul class="lectures-list">
+				<% for l in data.lectures.lectures.select {|l| l.season == '2014autumn'}.sort_by {|l| l.id}  %>
+				<li class="lecture-list-box">
+					<div class="lecture-list-date" style="color: #888;">
+						<%= russian_date(l.date) %>
+					</div>
+					<div class="lecture-list-content">
+						<h2 class="med-title">
+							<a href="./<%= l.id %>"><strong>
+
+								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
+						</h2>
+						<div class="lecture-author">
+							<%= l.lecturer %>, <%= l.lecturer_company %>
+						</div>
+						<% if l.youtube_url %>
+						<a href="<%= l.youtube_url %>" class="live-link live-link_past" title="Видеозапись">Видео лекции</a>
+						<% end %>
+						<% if l.speakerdeck_url %>
+						<a href="<%= l.speakerdeck_url %>" class="slides-link slides-link_past" title="Слайды лекции"><i></i>Слайды лекции</a>
+						<% end %>
+					</div>
+				</li>
+				<% end %>
+			</ul>
+
+
+			<h2 class="secondary-title">Весна 2014: карьера и профессии</h2> 
+
+			<ul class="lectures-list">
+				<% for l in data.lectures.lectures.select {|l| l.season == '2014spring'}.sort_by {|l| l.id}  %>
+				<li class="lecture-list-box">
+					<div class="lecture-list-date" style="color: #888;">
+						<%= russian_date(l.date) %>
+					</div>
+					<div class="lecture-list-content">
+						<h2 class="med-title">
+							<a href="./<%= l.id %>"><strong>
+
+								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
+						</h2>
+						<div class="lecture-author">
+							<%= l.lecturer %>, <%= l.lecturer_company %>
+						</div>
+						<% if l.youtube_url %>
+						<a href="<%= l.youtube_url %>" class="live-link live-link_past" title="Видеозапись">Видео лекции</a>
+						<% end %>
+						<% if l.speakerdeck_url %>
+						<a href="<%= l.speakerdeck_url %>" class="slides-link slides-link_past" title="Слайды лекции"><i></i>Слайды лекции</a>
+						<% end %>
+					</div>
+				</li>
+				<% end %>
+			</ul>
+
+			<h2 class="secondary-title">Осень 2013: разработка и технологии</h2> 
+
+			<ul class="lectures-list">
+				<% for l in data.lectures.lectures.select {|l| l.season == '2013autumn'}.sort_by {|l| l.id}  %>
+				<li class="lecture-list-box">
+					<div class="lecture-list-date" style="color: #888;">
+						<%= russian_date(l.date) %>
+					</div>
+					<div class="lecture-list-content">
+						<h2 class="med-title">
+							<a href="./<%= l.id %>"><strong>
+
+								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
+						</h2>
+						<div class="lecture-author">
+							<%= l.lecturer %>, <%= l.lecturer_company %>
+						</div>
+						<% if l.youtube_url %>
+						<a href="<%= l.youtube_url %>" class="live-link live-link_past" title="Видеозапись">Видео лекции</a>
+						<% end %>
+						<% if l.speakerdeck_url %>
+						<a href="<%= l.speakerdeck_url %>" class="slides-link slides-link_past" title="Слайды лекции"><i></i>Слайды лекции</a>
+						<% end %>
+					</div>
+				</li>
+				<% end %>
+			</ul>
+
+			<h2 class="secondary-title">Весна 2013: карьера и профессии</h2> 
+
+			<ul class="lectures-list">
+				<% for l in data.lectures.lectures.select {|l| l.season == '2013spring'}.sort_by {|l| l.id}  %>
+				<li class="lecture-list-box">
+					<div class="lecture-list-date" style="color: #888;">
+						<%= russian_date(l.date) %>
+					</div>
+					<div class="lecture-list-content">
+						<h2 class="med-title">
+							<a href="./<%= l.id %>"><strong>
+
+								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
+						</h2>
+						<div class="lecture-author">
+							<%= l.lecturer %>, <%= l.lecturer_company %>
+						</div>
+						<% if l.youtube_url %>
+						<a href="<%= l.youtube_url %>" class="live-link live-link_past" title="Видеозапись">Видео лекции</a>
+						<% end %>
+						<% if l.speakerdeck_url %>
+						<a href="<%= l.speakerdeck_url %>" class="slides-link slides-link_past" title="Слайды лекции"><i></i>Слайды лекции</a>
+						<% end %>
+					</div>
+				</li>
+				<% end %>
+			</ul>
+
+			<h2 class="secondary-title">Весна 2012: карьера и профессии</h2> 
+
+			<ul class="lectures-list">
+				<% for l in data.lectures.lectures.select {|l| l.season == '2012spring'}.sort_by {|l| l.id}  %>
+				<li class="lecture-list-box">
+					<div class="lecture-list-date" style="color: #888;">
+						<%= russian_date(l.date) %>
+					</div>
+					<div class="lecture-list-content">
+						<h2 class="med-title">
+							<a href="./<%= l.id %>"><strong>
+
+								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
+						</h2>
+						<div class="lecture-author">
+							<%= l.lecturer %>, <%= l.lecturer_company %>
+						</div>
+						<% if l.youtube_url %>
+						<a href="<%= l.youtube_url %>" class="live-link live-link_past" title="Видеозапись">Видео лекции</a>
+						<% end %>
+						<% if l.speakerdeck_url %>
+						<a href="<%= l.speakerdeck_url %>" class="slides-link slides-link_past" title="Слайды лекции"><i></i>Слайды лекции</a>
+						<% end %>
+					</div>
+				</li>
+				<% end %>
+			</ul>
+
+
+		</section>

@@ -353,6 +353,116 @@ max-height: 100%;
 	padding: 17px 32px 9px;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+.live-link, .live-link:visited, .slides-link, .slides-link:visited{
+	position: relative;
+	padding-left: 32px;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #279cdf;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.live-link::before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #279cdf;
+	left: 3px;
+	top: 50%;
+	margin-top: -10px;
+}
+
+.live-link::after{
+	content: '';
+	position: absolute;
+	left: 11px;
+	top: 50%;
+	margin-top: -5px;
+	border-width: 5px 0 5px 5px;
+	border-style: solid;
+	border-color: transparent transparent transparent #fff;
+}
+
+.live-link_past, .slides-link_past{
+	padding-left: 20px;
+	width: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	height: 20px;
+	overflow: hidden;
+	color: transparent;
+	text-indent: -9999px;
+	margin-right: 10px;
+}
+
+.live-link_past::before{
+	left: 0;
+	background-color: #bbb;
+}
+
+.live-link_past::after{
+	left: 8px;
+}
+
+.live-link:hover::before{
+	background-color: #fe3434;
+}
+
+.slides-link_past{
+	height: 30px;
+	width: 23px;
+}
+
+.slides-link i{
+	position: absolute;
+	width: 16px;
+	height: 11px;
+	left: 0;
+	top: 50%;
+	margin-top: -3px;
+	background-color: #bbb;
+	border: 1px #fff solid;
+}
+
+.slides-link i::before,
+.slides-link i::after{
+	content: '';
+	z-index: -1;
+	position: absolute;
+	width: 16px;
+	height: 11px;
+	background-color: #bbb;
+	border: 1px #fff solid;
+}
+
+.slides-link i::after{
+	right: -4px;
+	top: -4px;
+}
+
+.slides-link i::before{
+	right: -7px;
+	top: -7px;
+}
+
+.slides-link_past:hover i::before,
+.slides-link_past:hover i::after,
+.slides-link_past:hover i{
+	background-color: #fe3434;
+}
+
+/*.slides-link_past{
+	position: relative;
+	z-index: 20;
+}*/
+
+.slides-link_past 
 /* Lecture box> */
 
 

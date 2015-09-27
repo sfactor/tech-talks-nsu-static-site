@@ -10,8 +10,8 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
-	<link rel="stylesheet" href="/css/reset.css" media="all" />
-	<link rel="stylesheet" href="/css/style.css" media="all" />
+	<link rel="stylesheet" href="<%= base_url %>/css/reset.css" media="all" />
+	<link rel="stylesheet" href="<%= base_url %>/css/style.css" media="all" />
 
 	<!--[if lt IE 9]>
 		<script type="text/javascript" src="/js/html5.js"></script>
@@ -22,7 +22,7 @@
 	<!-- <Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
     <script src="http://malsup.github.com/jquery.form.js"></script>
-	<script src="js/scripts.js"></script>
+	<script src="<%= base_url %>js/scripts.js"></script>
 	<!-- Scripts> -->
 
 </head>
@@ -32,21 +32,47 @@
 		<div class="header-wrapper">
 			<header class="content-box">
 				<nav class="head-navigation fright">
-					<a href="/faq/about" class="head-navigation-link">О проекте</a>
-					<a href="/faq/students" class="head-navigation-link">Слушателям</a>
-					<a href="/faq/speakers" class="head-navigation-link">Докладчикам</a>
-					<a href="/faq/contacts" class="head-navigation-link">Контакты</a>
+					<% if current_page.data.menu_item == "archive" %>
+					<span class="head-navigation-selected">Архив</span>
+					<% else %>
+					<a href="<%= base_url %>/archive" class="head-navigation-link">Архив</a>
+					<% end %>
+
+					<% if current_page.data.menu_item == "about" %>
+					<span class="head-navigation-selected">О проекте</span>
+					<% else %>
+					<a href="<%= base_url %>/faq/about" class="head-navigation-link">О проекте</a>
+					<% end %>
+
+					<% if current_page.data.menu_item == "students" %>
+					<span class="head-navigation-selected">Слушателям</span>
+					<% else %>
+					<a href="<%= base_url %>/faq/students" class="head-navigation-link">Слушателям</a>
+					<% end %>
+					
+					<% if current_page.data.menu_item == "speakers" %>
+					<span class="head-navigation-selected">Докладчикам</span>
+					<% else %>
+					<a href="<%= base_url %>/faq/speakers" class="head-navigation-link">Докладчикам</a>
+					<% end %>
+					
+					<% if current_page.data.menu_item == "contacts" %>
+					<span class="head-navigation-selected">Контакты</span>
+					<% else %>
+					<a href="<%= base_url %>/faq/contacts" class="head-navigation-link">Контакты</a>
+					<% end %>
+
 				</nav>
-				<a href="/" class="logo" style="">
+				<a href="<%= base_url %>/" class="logo" style="">
 					Tech Talks @NSU
-					<img src="/img/logo.png" alt="">
+					<img src="<%= base_url %>/img/logo.png" alt="">
 				</a>
 			</header>
 		</div>
     <%= yield %>
                 <div class="feedback-box-wrapper">
 			<section class="content-box feedback-box text-center">
-				<h2 class="med-title">Оставьте вашу почту, чтобы быть в курсе расписания и анонсов лекций</h2>
+				<h2 class="med-title">Интересно? Оставьте вашу почту, чтобы быть в курсе расписания и анонсов лекций</h2>
 				<form id="feedback" class="feedback-form" action="https://docs.google.com/forms/d/1pX4ZjRHJCMx3TYMW_YSFpa98Pu7kgfoqMrG020zC8KI/viewform"
 					method="get"> 
 					<input type="text" placeholder="Ваш e-mail" name="entry.1753437283">
@@ -56,10 +82,10 @@
 		</div>
 		<section class="content-box socials-box text-center">
 			<h2 class="med-title">Или подпишитесь на нас в соцсетях</h2>
-			<a href="http://vk.com/TechTalksNSU" class="social-btn"><img src="/img/vk.png" alt=""></a>
-			<a href="http://twitter.com/TechTalksNSU" class="social-btn"><img src="/img/tw.png" alt=""></a>
-			<a href="http://www.facebook.com/TechTalksNSU" class="social-btn"><img src="/img/fb.png" alt=""></a>
-			<a href="http://www.youtube.com/user/SoftwareIndustry101" class="social-btn"><img src="/img/YT.png" alt=""></a>
+			<a href="http://vk.com/TechTalksNSU" class="social-btn"><img src="<%= base_url %>/img/vk.png" alt=""></a>
+			<a href="http://twitter.com/TechTalksNSU" class="social-btn"><img src="<%= base_url %>/img/tw.png" alt=""></a>
+			<a href="http://www.facebook.com/TechTalksNSU" class="social-btn"><img src="<%= base_url %>/img/fb.png" alt=""></a>
+			<a href="http://www.youtube.com/user/SoftwareIndustry101" class="social-btn"><img src="<%= base_url %>/img/YT.png" alt=""></a>
 		</section>
 	</div>
 <script>

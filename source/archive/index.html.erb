@@ -1,13 +1,15 @@
 ---
 layout: layout
+menu_item: archive
 ---
 
-<% lecture_count = data.lectures.lectures.count %>
+<% lecture_count = data.lectures.lectures.select {|l| Date.parse(l.date) < Date.today}.count %>
 <% lecture_word = inflict_lectures (lecture_count) %>
 
 		<section class="content-box">
-			<h1 class="med-title">C 2012 года мы провели 5 сезонов наших выступлений и суммарно прочитали <%= lecture_count%> <%= lecture_word %></h1>
-			<h2 class="secondary-title">Осень 2014: разработка и технологии</h2> 
+			<h1 class="text-center med-title">C 2012 года мы провели 5 сезонов выступлений и суммарно прочитали <%= lecture_count%> <%= lecture_word %></h1>
+			<br/><br/>
+			<h2 class="med-title">Осень 2014: разработка и технологии</h2> 
 
 			<ul class="lectures-list">
 				<% for l in data.lectures.lectures.select {|l| l.season == '2014autumn'}.sort_by {|l| l.id}  %>
@@ -17,7 +19,7 @@ layout: layout
 					</div>
 					<div class="lecture-list-content">
 						<h2 class="med-title">
-							<a href="./<%= l.id %>"><strong>
+							<a href="<%= base_url %>/<%= l.id %>"><strong>
 
 								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
 						</h2>
@@ -36,7 +38,7 @@ layout: layout
 			</ul>
 
 
-			<h2 class="secondary-title">Весна 2014: карьера и профессии</h2> 
+			<h2 class="med-title">Весна 2014: карьера и профессии</h2> 
 
 			<ul class="lectures-list">
 				<% for l in data.lectures.lectures.select {|l| l.season == '2014spring'}.sort_by {|l| l.id}  %>
@@ -46,7 +48,7 @@ layout: layout
 					</div>
 					<div class="lecture-list-content">
 						<h2 class="med-title">
-							<a href="./<%= l.id %>"><strong>
+							<a href="<%= base_url %>/<%= l.id %>"><strong>
 
 								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
 						</h2>
@@ -64,7 +66,7 @@ layout: layout
 				<% end %>
 			</ul>
 
-			<h2 class="secondary-title">Осень 2013: разработка и технологии</h2> 
+			<h2 class="med-title">Осень 2013: разработка и технологии</h2> 
 
 			<ul class="lectures-list">
 				<% for l in data.lectures.lectures.select {|l| l.season == '2013autumn'}.sort_by {|l| l.id}  %>
@@ -74,7 +76,7 @@ layout: layout
 					</div>
 					<div class="lecture-list-content">
 						<h2 class="med-title">
-							<a href="./<%= l.id %>"><strong>
+							<a href="<%= base_url %>/<%= l.id %>"><strong>
 
 								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
 						</h2>
@@ -92,7 +94,7 @@ layout: layout
 				<% end %>
 			</ul>
 
-			<h2 class="secondary-title">Весна 2013: карьера и профессии</h2> 
+			<h2 class="med-title">Весна 2013: карьера и профессии</h2> 
 
 			<ul class="lectures-list">
 				<% for l in data.lectures.lectures.select {|l| l.season == '2013spring'}.sort_by {|l| l.id}  %>
@@ -102,7 +104,7 @@ layout: layout
 					</div>
 					<div class="lecture-list-content">
 						<h2 class="med-title">
-							<a href="./<%= l.id %>"><strong>
+							<a href="<%= base_url %>/<%= l.id %>"><strong>
 
 								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
 						</h2>
@@ -120,7 +122,7 @@ layout: layout
 				<% end %>
 			</ul>
 
-			<h2 class="secondary-title">Весна 2012: карьера и профессии</h2> 
+			<h2 class="med-title">Весна 2012: карьера и профессии</h2> 
 
 			<ul class="lectures-list">
 				<% for l in data.lectures.lectures.select {|l| l.season == '2012spring'}.sort_by {|l| l.id}  %>
@@ -130,7 +132,7 @@ layout: layout
 					</div>
 					<div class="lecture-list-content">
 						<h2 class="med-title">
-							<a href="./<%= l.id %>"><strong>
+							<a href="<%= base_url %>/<%= l.id %>"><strong>
 
 								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
 						</h2>

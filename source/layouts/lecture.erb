@@ -21,11 +21,11 @@
                         <div class="lecture">
                                         <% if lecture.lecturer_pic == true %>
                                 <div class="lecture-img-box">
-                                        <img src="/<%= current_lecture_id %>/lecturer.jpg" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
+                                        <img src="<%= base_url %>/<%= current_lecture_id %>/lecturer.jpg" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
                                         <div class="lecture-img-layer"></div>
                                         <% if lecture.company_pic == true %>
                                         <div class="lecture-img-logo" style="<%= current_page.data.company_pic_style %>">
-                                                <img src="/<%= current_lecture_id %>/company.jpg" alt=""/ >
+                                                <img src="<%= base_url %>/<%= current_lecture_id %>/company.jpg" alt=""/ >
                                         </div>
                                         <% end %>
                                 </div>
@@ -39,7 +39,7 @@
                                         </span></div>
 
                                         <h1 class="big-title lecture-title">
-                                                <a href="/<%= current_lecture_id %>"><%= lecture.title %></a>
+                                                <a href="<%= base_url %>/<%= current_lecture_id %>"><%= lecture.title %></a>
                                         </h1>
                                         <div class="lecture-author"><%= lecture.lecturer%>, <%= lecture.lecturer_company %></div>
                                         <div class="lecture-text">
@@ -52,7 +52,7 @@
                                         </div>
                                         <% if lecture.live_broadcast_url %>
                                                 <p>
-                                                        <a href="#" class="live-link">Прямая трансляция</a>
+                                                        <a href="<%= lecture.live_broadcast_url %>" class="live-link">Прямая трансляция</a>
                                                 </p>
                                         <% end %>
                                         <% end %>
@@ -60,7 +60,18 @@
                                         
                                 </div>
                         </div>
-                </section>
+                        
+                <% if lecture.description.nil? && lecture.youtube_url.nil? && lecture.speakerdeck_id.nil? || lecture.no_materials == true%>
+                        <div class="med-title text-center">  
+                                К сожалению, история не сохранила для нас ни слайдов, ни видео этого доклада. 
+                                <br>
+                                Но память о нем живет в наших сердцах!
+                                <br>
+                                <br>
+                        </div>        
+                <% end %>
+
+</section>
 <% if youtube_id || lecture.speakerdeck_id %>
 <section class="content-box">
                         <div class="two-cols">

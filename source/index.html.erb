@@ -1,10 +1,127 @@
----
-title: Welcome to Middleman
----
+<% lecture = data.lectures.lectures.max_by {|l| l.id} %>
+<% youtube_id = nil %>
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<% if lecture.youtube_url %>
+<% youtube_id = /.*v=(.*)/.match(lecture.youtube_url)[1] %>
+<% end %>
+
+<% 
+
+    begin
+            lecture_date = Date.parse(lecture.date)
+    rescue
+            lecture_date = nil
+    end
+
+%>                 
+
+<% lecture_count = data.lectures.lectures.select{|l| l.season != '2015autumn'}.count %>
+<% lecture_word = inflict_lectures (lecture_count) %>
+
+
+
+<div class="gray-box">
+			<section class="content-box text-center">
+				<div class="gray-box-text big-title">
+					Tech Talks @NSU — это открытые лекции <br> о разработке ПО и карьере в IT
+					<span class="small">Проводятся в Новосибирском государственном университете.</span>
+					<span class="small">Вход свободный.</span>
+
+				</div>
+			</section>
+</div>
+
+<section class="content-box">
+	<div class="secondary-title"><b>Тема осеннего сезона 2015 года: «Разработка и технологии»</b></div>
+</section>
+	
+<section class="content-box">
+                        <div class="lecture">
+                                        <% if lecture.lecturer_pic == true %>
+                                <div class="lecture-img-box">
+                                        <img src="<%= base_url %>/<%= lecture.id %>/lecturer.jpg" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
+                                        <div class="lecture-img-layer"></div>
+                                        <% if lecture.company_pic == true %>
+                                        <div class="lecture-img-logo" style="<%= current_page.data.company_pic_style %>">
+                                                <img src="<%= base_url %>/<%= lecture.id %>/company.jpg" alt=""/ >
+                                        </div>
+                                        <% end %>
+                                </div>
+                                <% end %>
+                                <div class="lecture-content">
+                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date, false) %>
+
+                                        <% if lecture_date >= Date.today %>
+                                                , <%= lecture.time %>
+                                        <% end %>
+                                        </span></div>
+
+                                        <h1 class="big-title lecture-title">
+                                                <a href="<%= base_url %>/<%= lecture.id %>"><%= lecture.title %></a>
+                                        </h1>
+                                        <div class="lecture-author"><%= lecture.lecturer%>, <%= lecture.lecturer_company %></div>
+                                        <div class="lecture-text">
+                                        <%= lecture.description%>
+                                        </div>
+
+                                        <% if lecture.location %>
+                                        <div class="lecture-location">
+                                        <%= lecture.location %>
+                                        </div>
+                                        <% if lecture.live_broadcast_url %>
+                                                <p>
+                                                        <a href="<%= lecture.live_broadcast_url %>" class="live-link">Прямая трансляция</a>
+                                                </p>
+                                        <% end %>
+                                        <% end %>
+
+                                        
+                                </div>
+                        </div>
+</section>
+
+<!--
+
+    <div class = "text-center med-title">
+        Предыдущие лекции этого сезона
+        <br/>
+    </div>
+
+
+<section class="content-box">
+			<ul class="lectures-list">
+				<% for l in data.lectures.lectures.select {|l| l.season == '2015autumn'}.sort {|a,b| b.id <=> a.id}  %>
+				<li class="lecture-list-box old">
+					<div class="lecture-list-date" >
+						<%= russian_date(l.date, false) %>
+					</div>
+					<div class="lecture-list-content">
+						<h2 class="med-title">
+							<a href="<%= base_url %>/<%= l.id %>"><strong>
+
+								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
+						</h2>
+						<div class="lecture-author">
+							<%= l.lecturer %>, <%= l.lecturer_company %>
+						</div>
+						<% if l.youtube_url %>
+						<a href="<%= l.youtube_url %>" class="live-link live-link_past" title="Видеозапись">Видео лекции</a>
+						<% end %>
+						<% if l.speakerdeck_url %>
+						<a href="<%= l.speakerdeck_url %>" class="slides-link slides-link_past" title="Слайды лекции"><i></i>Слайды лекции</a>
+						<% end %>
+					</div>
+				</li>
+				<% end %>
+			</ul>
+</section>
+-->
+
+<div class = "text-center med-title">
+		А еще можете посмотреть <a href="<%= base_url%>/archive"><%= lecture_count %> <%= lecture_word %></a>, которые мы читали в предыдущих сезонах
+		<br/>
+</div>
+
+<br/><br/>
+
+

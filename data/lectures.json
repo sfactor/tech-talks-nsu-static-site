@@ -11,7 +11,7 @@
         "lecturer_company": "HDsoft",
         "lecturer_pic": true,
         "company_pic": true,
-        "description": "На этом семинаре мы поговорим о том, каковы цели подачи на PhD-программы в области computer science, каковы различия PhD-программ в различных странах Европы, как нужно подаваться на эти позиции и о перспективах после получения степени. Также докладчик поделится своим опытом и опытом своих друзей, которые тоже пошли в академию после индустрии. Еще мы поговорим о главных различиях между PhD и работой в индустрии, а также обсудим разницу с обучением на магистерских программах.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": null,
         "speakerdeck_id": null,
@@ -32,7 +32,8 @@
         "location": "Первая башня Технопарка <a href=\"http://go.2gis.com/jala\">(Николаева, 11)</a>, конференц-зал второго этажа.",
         "youtube_url": null,
         "speakerdeck_id": null,
-        "out_of_the_blue": true
+        "out_of_the_blue": true,
+        "no_materials": true
 },
 
 {
@@ -267,7 +268,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -352,7 +353,8 @@
         "description": null,
         "youtube_url": null,
         "speakerdeck_id": "12264170fafb4350b6a124dd5d53dedd",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/ustraivaiemsia-na-rabotu-v-zarubiezhnuiu-kompaniiu"
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/ustraivaiemsia-na-rabotu-v-zarubiezhnuiu-kompaniiu",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"        
 },
 
 {
@@ -367,7 +369,8 @@
         "company_pic": false,
         "description": "Всем известно, что динамические языки а-ля JavaScript ужасно медленные... если у вашей виртуальной машины нет головы на плечах. На примере виртуальных машин для языков JavaScript (V8) и Dart (Dart VM) мы рассмотрим, как эта голова выглядит изнутри и на какие хитрости приходится пускаться башковитой VM, дабы одолеть семантические особенности динамического языка.<br/><br/>Слайды доклада можно найти вот <a href=\"http://mrale.ph/talks/techtalksnsu2014/\">тут</a>",
         "youtube_url": null,
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
+        "speakerdeck_url": "http://mrale.ph/talks/techtalksnsu2014/",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "out_of_the_blue": true
 },
@@ -452,7 +455,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -468,7 +471,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -518,7 +521,8 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": "6f6533b0285b01310ba602e468fe5747"         ,
+        "speakerdeck_id": "6f6533b0285b01310ba602e468fe5747",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/razrabotka-ighr-na-c-plus-plus-roman-kuznietsov",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -534,7 +538,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -652,7 +656,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -770,7 +774,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -786,7 +790,8 @@
         "company_pic": false,
         "description": "Слайды доклада доступны вот <a href=\"http://prezi.com/xphxb90f-afn/sales-managers-work/\">тут</a>",
         "youtube_url": null,
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
+        "speakerdeck_url": "http://prezi.com/xphxb90f-afn/sales-managers-work",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -803,7 +808,8 @@
         "description": null,
         "youtube_url": null,
         "speakerdeck_id": "5a241a008435013081d822000a1e92d1", 
-        "speakerdeck_url": "https://speakerdeck.com/industry101/alieksandr-poghriebniak-obzor-ighrovoi-industrii"
+        "speakerdeck_url": "https://speakerdeck.com/industry101/alieksandr-poghriebniak-obzor-ighrovoi-industrii",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"        
 
 },
 {
@@ -818,7 +824,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": "http://www.youtube.com/watch?v=PaRoSFU4xC4",
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -835,7 +841,8 @@
         "description": null,
         "youtube_url": null,
         "speakerdeck_id": "21317aa08487013081d922000a1e92d1",
-        "speakerdeck_url": "https://speakerdeck.com/industry101/siemien-faktorovich-siervisnyie-i-produktovyie-kompanii"
+        "speakerdeck_url": "https://speakerdeck.com/industry101/siemien-faktorovich-siervisnyie-i-produktovyie-kompanii",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223" 
 
 },
 {
@@ -867,7 +874,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -883,7 +890,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": null         ,
+        "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -1045,7 +1052,7 @@
         "season": "2012spring",
         "date": "2012-03-10",
         "time": "19:30",
-        "title": "Как IT-компании зарабатывают деньги. Разница между сервисными и продуктовыми компанииями. Что такое «стартап».",
+        "title": "Как IT-компании зарабатывают деньги. Разница между сервисными и продуктовыми компанииями.",
         "lecturer": "Семён Факторович",
         "lecturer_company": "Noveo",
         "lecturer_pic": false,

@@ -40,6 +40,18 @@
 #   activate :livereload
 # end
 
+#configure :development do
+
+activate :deploy do |deploy|
+  deploy.method   = :ftp
+  deploy.host            = "techtalks.nsu.ru"
+  deploy.path            = "/staging"
+  deploy.user            = "www-techtalks"
+  deploy.password        = ENV["ftp_password"]
+end
+
+#end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -47,80 +59,88 @@
 #   end
 # end
 helpers do
+
 require 'date'
-        def russian_date (str_date, add_year=true)
-                
-                begin
-                        date = Date.parse(str_date)
-                rescue
-                        return str_date
-                end
 
-                res = date.day.to_s + " "
+def base_url
+#    return "/staging"
+    return ""
+end
 
-                case date.month
-                        when 1
-                        res += "января"
-                        when 2
-                        res += "февраля"
-                        when 3
-                        res += "марта"
-                        when 4
-                        res += "апреля"
-                        when 5
-                        res += "мая"
-                        when 6
-                        res += "июня"
-                        when 7
-                        res += "июля"
-                        when 8
-                        res += "августа"
-                        when 9
-                        res += "сентября"
-                        when 10
-                        res += "октября"
-                        when 11
-                        res += "ноября"
-                        when 12
-                        res += "декабря"
-                end
 
-                if add_year
-                        res += " "
-                        res += date.year.to_s
-                end
-
-                return res
+def russian_date (str_date, add_year=true)
+        
+        begin
+                date = Date.parse(str_date)
+        rescue
+                return str_date
         end
 
-        def inflict_lectures number
-                s = number.to_s[-1]
-                res = ""
-                case s
-                        when "1"
-                        res = "лекцию"
-                        when "2"
-                        res = "лекции"
-                        when "3"
-                        res = "лекции"
-                        when "4"
-                        res = "лекции"
-                        when "5"
-                        res = "лекций"
-                        when "6"
-                        res = "лекций"
-                        when "7"
-                        res = "лекций"
-                        when "8"
-                        res = "лекций"
-                        when "9"
-                        res = "лекций"
-                        when "0"
-                        res = "лекций"
-                end
+        res = date.day.to_s + " "
 
-                return res
+        case date.month
+                when 1
+                res += "января"
+                when 2
+                res += "февраля"
+                when 3
+                res += "марта"
+                when 4
+                res += "апреля"
+                when 5
+                res += "мая"
+                when 6
+                res += "июня"
+                when 7
+                res += "июля"
+                when 8
+                res += "августа"
+                when 9
+                res += "сентября"
+                when 10
+                res += "октября"
+                when 11
+                res += "ноября"
+                when 12
+                res += "декабря"
         end
+
+        if add_year
+                res += " "
+                res += date.year.to_s
+        end
+
+        return res
+end
+
+def inflict_lectures number
+        s = number.to_s[-1]
+        res = ""
+        case s
+                when "1"
+                res = "лекцию"
+                when "2"
+                res = "лекции"
+                when "3"
+                res = "лекции"
+                when "4"
+                res = "лекции"
+                when "5"
+                res = "лекций"
+                when "6"
+                res = "лекций"
+                when "7"
+                res = "лекций"
+                when "8"
+                res = "лекций"
+                when "9"
+                res = "лекций"
+                when "0"
+                res = "лекций"
+        end
+
+        return res
+end
 end
 set :css_dir, 'css'
 
@@ -130,6 +150,7 @@ set :images_dir, 'img'
 
 # Build-specific configuration
 configure :build do
+
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
@@ -145,3 +166,5 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+

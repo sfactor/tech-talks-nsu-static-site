@@ -63,8 +63,8 @@ helpers do
 require 'date'
 
 def base_url
-#    return "/staging"
-    return ""
+    return "/staging"
+#    return ""
 end
 
 

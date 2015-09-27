@@ -1,6 +1,7 @@
 ---
 layout: layout
 menu_item: archive
+title: Архив
 ---
 
 <% lecture_count = data.lectures.lectures.select {|l| Date.parse(l.date) < Date.today}.count %>

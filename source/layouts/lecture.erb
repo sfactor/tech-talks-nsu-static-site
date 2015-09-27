@@ -3,19 +3,27 @@
 <% lecture = data.lectures.lectures.find {|l| l.id == current_lecture_id} %>
 <% youtube_id = nil %>
 
+<% lecture_count = data.lectures.lectures.select {|l| Date.parse(l.date) < Date.today}.count %>
+<% lecture_word = inflict_lectures (lecture_count) %>
+
 <% if lecture.youtube_url %>
 <% youtube_id = /.*v=(.*)/.match(lecture.youtube_url)[1] %>
 <% end %>
 
+
+
 <% 
 
-                begin
-                        lecture_date = Date.parse(lecture.date)
-                rescue
-                        lecture_date = nil
-                end
+begin
+        lecture_date = Date.parse(lecture.date)
+rescue
+        lecture_date = nil
+end
 
-%>                 
+%>       
+
+<% no_materials = lecture.description.nil? && lecture.youtube_url.nil? && lecture.speakerdeck_id.nil? || lecture.no_materials %>
+
 
 <section class="content-box">
                         <div class="lecture">
@@ -61,7 +69,7 @@
                                 </div>
                         </div>
                         
-                <% if lecture.description.nil? && lecture.youtube_url.nil? && lecture.speakerdeck_id.nil? || lecture.no_materials == true%>
+                <% if no_materials == true%>
                         <div class="med-title text-center">  
                                 К сожалению, история не сохранила для нас ни слайдов, ни видео этого доклада. 
                                 <br>
@@ -92,4 +100,19 @@
                         </div>
                 </section>
 <% end %>
+<div class = "text-center med-title">
+<% if no_materials %>
+                Зато вы можете посмотреть <a href="<%= base_url%>/archive"> <%= lecture_count %> <%= lecture_word %></a>, которые мы читали в предыдущих сезонах
+
+<% else %>
+                А еще можете посмотреть <a href="<%= base_url%>/archive"> <%= lecture_count %> <%= lecture_word %></a>, которые мы читали в предыдущих сезонах
+
 <% end %>
+                <br/>
+</div>
+
+<br/><br/>
+
+<% end %>
+
+

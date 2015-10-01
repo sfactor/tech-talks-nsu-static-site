@@ -6,16 +6,16 @@
         "date": "2015-10-06",
         "season": "2015autumn",
         "time": "19:30",
-        "title": "Введение в LLVM",
+        "title": "Как приручить дракона: введение в LLVM",
         "lecturer": "Дмитрий Кашицын",
         "lecturer_company": "HDsoft",
         "lecturer_pic": true,
         "company_pic": true,
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "В этом докладе мы кратко расскажем о таком звере, как <a href=\"http://llvm.org/\">LLVM</a>, о котором много кто слышал, но немногие щупали. Что такое компилятор на самом деле? Чем LLVM отличается от других компиляторов? Как в LLVM происходит компиляция программы, как работают оптимизации? Наконец, какой путь проходит программа от разбора исходного текста до генерации исполняемого файла?<br/><br/>Лекция будет обзорной и не потребует от слушателей глубоких знаний теории компиляторов.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": null,
         "speakerdeck_id": null,
-        "live_broadcast_url": "#"
+        "live_broadcast_url": "https://plus.google.com/events/ctes98f7uhf19t5jlvlbk24dan4"
 },
 
 {

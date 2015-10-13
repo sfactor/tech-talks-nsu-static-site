@@ -45,7 +45,7 @@
 activate :deploy do |deploy|
   deploy.method   = :ftp
   deploy.host            = "techtalks.nsu.ru"
-  deploy.path            = "/"
+  deploy.path            = ENV["ftp_website_root"]
   deploy.user            = "www-techtalks"
   deploy.password        = ENV["ftp_password"]
 end
@@ -63,8 +63,7 @@ helpers do
 require 'date'
 
 def base_url
-#    return "/staging"
-    return ""
+    return ENV["website_root"]
 end
 
 

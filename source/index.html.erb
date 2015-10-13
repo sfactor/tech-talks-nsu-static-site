@@ -1,3 +1,8 @@
+---
+lecturer_pic_style: "height: 100%;"
+company_pic_style: "width:30%; padding-top:2px;"
+---
+
 <% lecture = data.lectures.lectures.max_by {|l| l.id} %>
 <% youtube_id = nil %>
 
@@ -80,7 +85,6 @@
                         </div>
 </section>
 
-<!--
 
     <div class = "text-center med-title">
         Предыдущие лекции этого сезона
@@ -90,7 +94,7 @@
 
 <section class="content-box">
 			<ul class="lectures-list">
-				<% for l in data.lectures.lectures.select {|l| l.season == '2015autumn'}.sort {|a,b| b.id <=> a.id}  %>
+				<% for l in data.lectures.lectures.select {|l| l.season == '2015autumn' && l.id != lecture.id}.sort {|a,b| b.id <=> a.id}  %>
 				<li class="lecture-list-box old">
 					<div class="lecture-list-date" >
 						<%= russian_date(l.date, false) %>
@@ -115,10 +119,9 @@
 				<% end %>
 			</ul>
 </section>
--->
 
 <div class = "text-center med-title">
-		А еще можете посмотреть <a href="<%= base_url%>/archive"><%= lecture_count %> <%= lecture_word %></a>, которые мы читали в предыдущих сезонах
+		А еще можете посмотреть <a href="<%= base_url%>/archive"><%= lecture_count %> <%= lecture_word %></a>, которые мы читали в прошлых сезонах
 		<br/>
 </div>
 

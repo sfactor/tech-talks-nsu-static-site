@@ -2,6 +2,23 @@
 "lectures":
 [
 {
+        "id": 65,
+        "date": "2015-10-13",
+        "season": "2015autumn",
+        "time": "19:30",
+        "title": "Deep learning: на пути к искусственному интеллекту",
+        "lecturer": "Михаил Ермоленко",
+        "lecturer_company": "api.ai",
+        "lecturer_pic": true,
+        "company_pic": true,
+        "description": "Будущее уже наступило. Каждый день мы видим новости типа «программа за три дня научилась играть в шахматы на уровне гроссмейстера», «компьютер научился рисовать картины в стиле Ван Гога и сочинять музыку в стиле Баха», «на дорогах общего пользования появились беспилотные автомобили» и т.д. Все эти достижения происходят благодаря искусственным нейронным сетям. <br/><br/> В докладе мы расскажем о следующем: <br/><br/> <ul> <li> - Что такое искусственные нейронные сети?</li> <li> - Как и почему они работают?</li> <li> - Примеры архитектур нейронных сетей для решения конкретных задач (распознавание образов, голоса, перевод текста и т.д.)</li> <li> - Какие есть сложности с обучением сетей и может ли компьютер обучаться самостоятельно?</li> <li> - Планирует ли искусственный интеллект «убить всех человеков» (с)?</li> </ul>",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "youtube_url": "https://www.youtube.com/watch?v=pBpDVqy1MgY",
+        "speakerdeck_id": "9faa08dedc1e4b1b808d882bcd8777f3",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/deep-learning-na-puti-k-iskusstviennomu-intielliektu",
+        "live_broadcast_url": "https://plus.google.com/events/csie5prh4ptv00m5e1tbenkr82o"
+},
+{
         "id": 64,
         "date": "2015-10-06",
         "season": "2015autumn",
@@ -13,8 +30,9 @@
         "company_pic": true,
         "description": "В этом докладе мы кратко расскажем о таком звере, как <a href=\"http://llvm.org/\">LLVM</a>, о котором много кто слышал, но немногие щупали. Что такое компилятор на самом деле? Чем LLVM отличается от других компиляторов? Как в LLVM происходит компиляция программы, как работают оптимизации? Наконец, какой путь проходит программа от разбора исходного текста до генерации исполняемого файла?<br/><br/>Лекция будет обзорной и не потребует от слушателей глубоких знаний теории компиляторов.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "youtube_url": null,
-        "speakerdeck_id": null,
+        "youtube_url": "http://www.youtube.com/watch?v=v7uBLSm6ft8",
+        "speakerdeck_id": "4405196d8c0c48b5b9c94d71ffdf51f5",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-priruchit-drakona-vviedieniie-v-llvm",
         "live_broadcast_url": "https://plus.google.com/events/ctes98f7uhf19t5jlvlbk24dan4"
 },
 
@@ -48,7 +66,7 @@
         "company_pic": true,
         "description": "Атаки по сторонним каналам (side channel attacks) — это вид атак на реализации криптографических алгоритмов. Подробнее о них мы говорили на <a href = \"/55\">предыдущей лекции</a>.<br/><br/>На этот раз мы поговорим о защите криптосистем от атак по сторонним каналам. Мы обсудим общие принципы защиты от таких атак, а в качестве подробного примера рассмотрим атаки, использующие в качестве источника инфорамации данные о энергопотреблении устройства (power analysis).<br/><br/>Эта лекция будет полностью онлайновой. Посмотреть ее можно будет <a href=\"https://plus.google.com/events/cq4ltv46qeansa11is40456d1qs\">здесь</a>.",
         "location": null,
-        "youtube_url": "http://www.youtube.com/watch?v=AIqzgfgvRo0",
+        "youtube_url": "http://www.youtube.com/watch?v=fla8Mo2vhrY",
         "speakerdeck_id": "22ee362b63a845e98e97e329753098e6",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/zashchita-ot-atak-po-storonnim-kanalam"
 },
@@ -65,7 +83,7 @@
         "company_pic": true,
         "description": "Ahead-of-time (AOT) компиляция, или статическая компиляция, не так давно объявлена компанией Oracle как одно из нововведений Java 9 — следующего мажорного релиза Java. Это объявление вызвало разнообразную реакцию в сообществе Java-программистов: некоторые удивляются почему только сейчас, кто-то в недоумении, потому что всегда считал, что AOT-компилятор для Java не возможен теоретически из-за богатых динамических возможностей Java, многие убеждены, что AOT не нужен для Java, потому что он не может конкурировать по производительности с JIT, который использует динамический профиль исполнения для оптимизации программ на лету.  <br/><br/> В этом докладе я попробую развеять распространенные мифы, которые сложились вокруг AOT-компиляции Java, расскажу почему AOT-компиляция возможна с сохранением всех динамических особенностей Java, покажу где этот подход имеет преимущества в производительности перед динамической компиляцией (JIT) с технической точки зрения, а также обрисую для чего вообще может быть полезна AOT-компиляция для Java.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "youtube_url": "http://www.youtube.com/watch?v=pcCR2PVB72k",
+        "youtube_url": "http://www.youtube.com/watch?v=blXQTBiYbzs",
         "speakerdeck_id": "62b1a89803224a33ae02d12e94050047",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/aot-kompiliatsiia-java" 
 },
@@ -82,7 +100,7 @@
         "company_pic": true,
         "description": "Гибкий и понятный код, легко поддающийся модификации и не скрывающий неприятных сюрпризов от своих создателей. Как оказывается, это не сказка! Всего этого позволяет добиться методика разработки через тестирование - test-driven development. Она основана на первый взгляд на парадоксальной идее создавать тесты до написания тестируемого прикладного кода.  <br/><br/> Мы расскажем о принципах TDD и их применении на разных стадиях разработки от проектирования до рефакторинга, о преимуществах и недостатках модульного тестирования в среде iOS, а также о применении TDD к уже существующим приложениям. ",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "youtube_url": "http://www.youtube.com/watch?v=RvtMV0H_HIY",
+        "youtube_url": "http://www.youtube.com/watch?v=W7Os4or91wA",
         "speakerdeck_id": "ee2691774b5a40d19594527781c86881", 
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/tdd-razrabotka-chieriez-tiestirovaniie-dlia-ios"
 },
@@ -116,7 +134,7 @@
         "company_pic": true,
         "description": "Если вы интересуетесь веб-разработкой, то вы наверняка слышали слово \"highload\". Это модно, это интересно, все хотят это попробовать на себе. Но мало кто знает, что на самом деле значит \"highload\" или \"высокие нагрузки\" и что нужно знать, чтобы правильно \"готовить\" высоконагруженный проект. <br/><br/> Мы поговорим о том, что же такое highload, узнаем, с какими проблемами может сталкнуться условный веб-проект при росте нагрузки и попробуем решить эти проблемы. Также мы обсудим, какие подходы и инструменты должен знать веб-разработчик, чтобы успешно справиться с любыми нагрузками.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
-        "youtube_url": "http://www.youtube.com/watch?v=QU1g_M2-Wdg",
+        "youtube_url": "http://www.youtube.com/watch?v=6PDtlAzFRlE",
         "speakerdeck_id": "5be241504c660132129f2ee134ae9694",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/chto-takoie-highload" 
 },
@@ -133,7 +151,7 @@
         "company_pic": true,
         "description": "Несмотря на то, что функциональное программирование существует уже 60 лет, до сих пор оно оставалось в тени императивного программирования, а разработчики о нем знали лишь потому, что в университетах иногда есть некая туманная дисциплина с таким названием. Но сегодня, когда стало ясно, что ООП не является панацеей в борьбе со сложностью ПО, о функциональном программировании внезапно вспомнили: оказалось, что идеи, которые оно предлагает, помогают решать традиционные задачи более простым и элегантным способом. Современные мэйнстримные языки, в развитии своем исчерпав все лимиты из ООП и императивного программирования, двинулись в сторону функционального программирования.<br/><br/> В лекции будет рассказано о наиболее значимых идеях и принципах, которые вышли из мира функционального программирования и с успехом покоряют умы современных мэйнстрим-разработчиков.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
-        "youtube_url": "http://www.youtube.com/watch?v=_hVgX-aKXBU",
+        "youtube_url": "http://www.youtube.com/watch?v=f6Xk-CLUcF4",
         "speakerdeck_id": "6ca75c704fbc0132493b0a7b94f992b5",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/back-to-the-future-funktsional-noie-proghrammirovaniie-vchiera-i-sieghodnia" 
 },
@@ -150,7 +168,7 @@
         "company_pic": true,
         "description": "Что лучше: UTF-8, UTF-16 или UTF-32? Сколькими байтами кодируется одна буква в UTF-16? Почему использование слова «буква» в предыдущем вопросе некорректно? Почему правильно реализовать strlen() или функцию переворачивания строки вовсе не так просто, как кажется? И почему, чёрт возьми, при попытке вывести русские буквы в консоль я вижу кракозябры? <br/><br/> В лекции будут даны ответы на эти и некоторые другие вопросы о Unicode. Бонусом мы расскажем краткую историю кодировок от начала времен (точнее, от времен DOS CP 866 и KOI8-R).",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
-        "youtube_url": "http://www.youtube.com/watch?v=8HRq_-c5fn0",
+        "youtube_url": "http://www.youtube.com/watch?v=3ANs6dccr6w",
         "speakerdeck_id": "91dd55904627013234d17a3f7c519e69",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/vsio-chto-vy-khotieli-znat-pro-unicode-no-boialis-sprosit"
 },
@@ -184,7 +202,7 @@
         "company_pic": true,
         "description": "Spotify — один из самых популярных в мире сервисов стриминга музыки. Он появился в Швеции, стране, где 10 лет назад практически все онлайн-потребление музыки происходило через The Pirate Bay. За последние несколько лет Spotify не только обогнал все легальные и нелегальные способы распространения музыки в Скандинавии, но и начал активно завоевывать себе пространство по всей планете. Сейчас Spotify – это 58 стран и более 40 миллионов пользователей. Сервис быстро растет и при этом остается быстрым, устойчивым и постоянно доступным. К тому же так вышло, что архитектура, которую мы последовательно выстраиваем последние 6 лет, сравнительно недавно получила новое имя \"Microservices\" и стала дико популярна среди хипстеров от программирования. Мы поговорим о том, как это все выглядит изнутри и почему все получилось именно так. Митболлы и смуззи брать на лекцию не обязательно.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
-        "youtube_url": "http://www.youtube.com/watch?v=thxKVvJhJ8M",
+        "youtube_url": "http://www.youtube.com/watch?v=BqtLzbhYuh8",
         "speakerdeck_id": "e8f7ffd035e80132343b52ef75abd035",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/pressing-play-at-spotify" 
 },
@@ -437,7 +455,7 @@
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
-        "youtube_url": null,
+        "youtube_url": "http://www.youtube.com/watch?v=t9sURFrUgUI",
         "speakerdeck_id": "4a5c88008f3301317de21e8cfc450540",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kross-platformiennaia-razrabotka-mobil-nykh-biznies-prilozhienii"         ,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
@@ -486,7 +504,7 @@
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
-        "youtube_url": "http://www.youtube.com/watch?v=8HRq_-c5fn0",
+        "youtube_url": "http://www.youtube.com/watch?v=3ANs6dccr6w",
         "speakerdeck_id": "91dd55904627013234d17a3f7c519e69",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/vsio-chto-vy-khotieli-znat-pro-unicode-no-boialis-sprosit",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
@@ -497,13 +515,13 @@
         "season": "2013autumn",
         "date": "2013-11-05",
         "time": "19:30",
-        "title": "DLang: возможности языка и его применение ",
+        "title": "DLang: возможности языка и его применение",
         "lecturer": "Николай Толстокулаков",
         "lecturer_company": "ixtens.ru",
         "lecturer_pic": false,
         "company_pic": false,
         "description": null,
-        "youtube_url": null,
+        "youtube_url": "http://www.youtube.com/watch?v=sfBrMhAxvFk",
         "speakerdeck_id": "331f9aa028590131549d2e8802ef8f40",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/iazyk-proghrammirovaniia-d-nikolai-tolstokulakov"         ,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"

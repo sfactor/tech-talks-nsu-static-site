@@ -39,11 +39,7 @@ end
                                 </div>
                                 <% end %>
                                 <div class="lecture-content">
-                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date) %>
-
-                                        <% if lecture_date >= Date.today %>
-                                                , <%= lecture.time %>
-                                        <% end %>
+                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date) %><% if lecture_date >= Date.today %>, <%= lecture.time %><% end %>
                                         </span></div>
 
                                         <h1 class="big-title lecture-title">
@@ -102,10 +98,10 @@ end
 <% end %>
 <div class = "text-center med-title">
 <% if no_materials %>
-                Зато вы можете посмотреть <a href="<%= base_url%>/archive"> <%= lecture_count %> <%= lecture_word %></a>, которые мы читали в предыдущих сезонах
+                Зато вы можете посмотреть <a href="<%= base_url%>/archive"> <%= lecture_count %> <%= lecture_word %></a>, которые мы прочитали начиная аж с 2012 года.
 
 <% else %>
-                А еще можете посмотреть <a href="<%= base_url%>/archive"> <%= lecture_count %> <%= lecture_word %></a>, которые мы читали в предыдущих сезонах
+                А еще можете посмотреть <a href="<%= base_url%>/archive"> <%= lecture_count %> <%= lecture_word %></a>, которые мы прочитали начиная аж с 2012 года.
 
 <% end %>
                 <br/>

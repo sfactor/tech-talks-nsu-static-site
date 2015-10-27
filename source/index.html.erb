@@ -109,10 +109,10 @@ company_pic_style: "margin: 5px; width: 40%;"
 							<%= l.lecturer %>, <%= l.lecturer_company %>
 						</div>
 						<% if l.youtube_url %>
-						<a href="<%= l.youtube_url %>" class="live-link live-link_past" title="Видеозапись">Видео лекции</a>
+						<a href="<%= base_url %>/<%= l.id %>" class="live-link live-link_past" title="Видеозапись">Видео лекции</a>
 						<% end %>
 						<% if l.speakerdeck_url %>
-						<a href="<%= l.speakerdeck_url %>" class="slides-link slides-link_past" title="Слайды лекции"><i></i>Слайды лекции</a>
+						<a href="<%= base_url %>/<%= l.id %>" class="slides-link slides-link_past" title="Слайды лекции"><i></i>Слайды лекции</a>
 						<% end %>
 					</div>
 				</li>

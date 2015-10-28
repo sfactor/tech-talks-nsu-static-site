@@ -2,6 +2,23 @@
 "lectures":
 [
 {
+        "id": 68,
+        "date": "2015-11-03",
+        "season": "2015autumn",
+        "time": "19:30",
+        "title": "Знакомьтесь, Kotlin",
+        "lecturer": "Алексей Жидков",
+        "lecturer_company": "Excelsior",
+        "lecturer_pic": true,
+        "company_pic": false,
+        "description": "Kotlin — это относительно молодой JVM-based язык, поддерживающий в том числе компиляцию в Javascript. В этом докладе мы расскажем о том, зачем создавался Kotlin, покажем наиболее интересные его фичи путем решения небольшой, но реальной практической задачи, а также дадим простой рецепт, который позволит вам определить, нужен ли вам Kotlin или нет.<br/><br/>К слову, Kotlin был создан в России. Часто ли вы пишете на языках отечественного производства?",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "speakerdeck_id": null,
+        "speakerdeck_url": null,
+        "live_broadcast_url": null,
+        "youtube_url": null
+},
+{
         "id": 67,
         "date": "2015-10-27",
         "season": "2015autumn",
@@ -13,10 +30,10 @@
         "company_pic": true,
         "description": "В течение последних нескольких лет я работал в лаборатории французского института Institut Pascal. Являясь сотрудником отделения, занимающегося исследованиями в области робототехники, я имел возможность поучаствовать в проекте по созданию автоматического транспортного средства. <br/><br/> Вместо того чтобы пытаться создать полноценную автоматическую машину, мы работали над более узкой задачей — созданием автоматического безрельсового трамвая. Он функционировал исключительно с помощью видеокамер, без использования GPS или других технологий геопозиционирования. <br/><br/> В этом докладе я расскажу про архитектуру этого аппаратно-программного комплекса и в частности про систему определения позиции по видео, над которой я работал.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "speakerdeck_id": null,
-        "speakerdeck_url": null,
+        "speakerdeck_id": "6ab9844464ca43c58c185c5dfe2e1157",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/gieolokatsiia-biespilotnogho-transportnogho-sriedstva-s-ispol-zovaniiem-vidieo",
         "live_broadcast_url": "https://plus.google.com/events/c4o9uacftpvegam72rbhvjv3tc0",
-        "youtube_url": null
+        "youtube_url": "http://www.youtube.com/watch?v=L2FXqT8j1L4"
 },
 
 {

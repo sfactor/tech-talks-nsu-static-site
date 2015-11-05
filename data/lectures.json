@@ -2,6 +2,23 @@
 "lectures":
 [
 {
+        "id": 69,
+        "date": "2015-11-10",
+        "season": "2015autumn",
+        "time": "19:30",
+        "title": "Унифицированные коммуникации и Asterisk",
+        "lecturer": "Михаил Сидоров",
+        "lecturer_company": "Axmor",
+        "lecturer_pic": true,
+        "company_pic": true,
+        "description": "Asterisk – один из самых популярных бесплатных VoIP-серверов. На его основе мы создали клиент-серверное решение, используемое десятками тысяч пользователей по всему миру. <br/><br/> В этом докладе мы расскажем: <ul> <li>- зачем вообще может понадобиться создавать «ещё один клон Skype»</li> <li>- что умеют VoIP-сервера на примере Asterisk</li> <li>- на какие грабли можно наступить при интеграции с Asterisk</li> </ul><br/> Кроме того, мы поговорим об архитектуре нашего решения, о модели каналов Asterisk, и о проблеме борьбы с плавающими багами, которые воспроизводятся только на боевом сервере.",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "speakerdeck_id": null,
+        "speakerdeck_url": null,
+        "live_broadcast_url": "https://plus.google.com/events/ctrsmvc8fa3fqccve28rd4pkbt0",
+        "youtube_url": null
+},
+{
         "id": 68,
         "date": "2015-11-03",
         "season": "2015autumn",
@@ -11,12 +28,12 @@
         "lecturer_company": "Excelsior",
         "lecturer_pic": true,
         "company_pic": false,
-        "description": "Kotlin — это относительно молодой JVM-based язык, поддерживающий в том числе компиляцию в Javascript. В этом докладе мы расскажем о том, зачем создавался Kotlin, покажем наиболее интересные его фичи путем решения небольшой, но реальной практической задачи, а также дадим простой рецепт, который позволит вам определить, нужен ли вам Kotlin или нет.<br/><br/>К слову, Kotlin был создан в России. Часто ли вы пишете на языках отечественного производства?",
+        "description": "Kotlin — это относительно молодой JVM-based язык, поддерживающий в том числе компиляцию в Javascript. В этом докладе мы расскажем о том, зачем создавался Kotlin, покажем наиболее интересные его фичи путем решения небольшой, но реальной практической задачи, а также дадим простой рецепт, который позволит определить, нужен ли вам Kotlin или нет.<br/><br/>К слову, Kotlin был создан в России. Часто ли вы пишете на языках отечественного производства?",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "speakerdeck_id": null,
-        "speakerdeck_url": null,
-        "live_broadcast_url": null,
-        "youtube_url": null
+        "speakerdeck_id": "c62ed80007384dc2821e7d13bc0d416a",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/znakom-ties-kotlin",
+        "live_broadcast_url": "https://plus.google.com/events/ctlela42jeogjt0jiidokbseft8",
+        "youtube_url": "https://www.youtube.com/watch?v=1AW9aus1mTE"
 },
 {
         "id": 67,

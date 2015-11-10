@@ -13,10 +13,10 @@
         "company_pic": true,
         "description": "Asterisk – один из самых популярных бесплатных VoIP-серверов. На его основе мы создали клиент-серверное решение, используемое десятками тысяч пользователей по всему миру. <br/><br/> В этом докладе мы расскажем: <ul> <li>- зачем вообще может понадобиться создавать «ещё один клон Skype»</li> <li>- что умеют VoIP-сервера на примере Asterisk</li> <li>- на какие грабли можно наступить при интеграции с Asterisk</li> </ul><br/> Кроме того, мы поговорим об архитектуре нашего решения, о модели каналов Asterisk, и о проблеме борьбы с плавающими багами, которые воспроизводятся только на боевом сервере.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "speakerdeck_id": null,
-        "speakerdeck_url": null,
+        "speakerdeck_id": "b36d29834bcb4f40858003694931b0a5",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/unifitsirovannyie-kommunikatsii-i-asterisk",
         "live_broadcast_url": "https://plus.google.com/events/ctrsmvc8fa3fqccve28rd4pkbt0",
-        "youtube_url": null
+        "youtube_url": "http://www.youtube.com/watch?v=NooaOfOz1m8"
 },
 {
         "id": 68,

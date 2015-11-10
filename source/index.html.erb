@@ -1,5 +1,4 @@
 ---
-
 ---
 
 <% lecture = data.lectures.lectures.max_by {|l| l.id} %>
@@ -53,11 +52,7 @@
                                 </div>
                                 <% end %>
                                 <div class="lecture-content">
-                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date, false) %>
-
-                                        <% if lecture_date >= Date.today %>
-                                                , <%= lecture.time %>
-                                        <% end %>
+                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date, false) %> , <%= lecture.time %>
                                         </span></div>
 
                                         <h1 class="big-title lecture-title">

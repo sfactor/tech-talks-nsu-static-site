@@ -2,6 +2,22 @@
 "lectures":
 [
 {
+        "id": 71,
+        "date": "2015-11-24",
+        "season": "2015autumn",
+        "time": "19:30",
+        "title": " Xtext: Eclipse-based framework for defining Domain-Specific Languages (DSLs)",
+        "lecturer": "Thomas Baar",
+        "lecturer_company": "Hochschule für Technik und Wirtschaft Berlin",
+        "lecturer_pic": true,
+        "company_pic": false,
+        "description": "Предметно-специфичные языки (Domain-specific languages, DSLs) привлекают к себе всё больше интереса как в академических кругах, так и в индустрии. Xtext — это фреймворк на базе платформы Eclipse, позволяющий определять текстовые DSL для самых разнообразных нужд и реализовывать их на базе JVM. Среди прочего, Xtext предоставляет интуитивно понятный формализм на основе EBNF, позволяющий определить грамматику вашего DSL, а также множество инструментов для задания правил валидации синтаксических деревьев, выполнения рутинных задач типа отслеживания пространств имен или форматирования кода, а также для собственно кодогенерации.<br><br>Помимо рассказа о проекте Xtext мы поговорим о плюсах, минусах и подводных камнях написания PhD в Германии.<br><br>Лекция будет читаться на английском.<br><br>Докладчик — Томас Баар, немецкий профессор, приехавший в НГУ специально чтобы прочитать полугодовой курс на ФИТ.",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "speakerdeck_id": null,
+        "speakerdeck_url": null,
+        "live_broadcast_url": null
+},
+{
         "id": 70,
         "date": "2015-11-17",
         "season": "2015autumn",
@@ -69,7 +85,6 @@
         "live_broadcast_url": "https://plus.google.com/events/c4o9uacftpvegam72rbhvjv3tc0",
         "youtube_url": "http://www.youtube.com/watch?v=L2FXqT8j1L4"
 },
-
 {
         "id": 66,
         "date": "2015-10-20",

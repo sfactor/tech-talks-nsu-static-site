@@ -65,23 +65,18 @@
 		<div class="header-wrapper">
 			<header class="content-box">
 				<nav class="head-navigation fright">
-					<% if current_page.data.menu_item == "archive" %>
-					<span class="head-navigation-selected">Архив</span>
-					<% else %>
-					<a href="<%= base_url %>/archive" class="head-navigation-link">Архив</a>
-					<% end %>
-
 					<% if current_page.data.menu_item == "about" %>
 					<span class="head-navigation-selected">О проекте</span>
 					<% else %>
 					<a href="<%= base_url %>/faq/about" class="head-navigation-link">О проекте</a>
 					<% end %>
 
-					<% if current_page.data.menu_item == "students" %>
-					<span class="head-navigation-selected">Слушателям</span>
+					<% if current_page.data.menu_item == "archive" %>
+					<span class="head-navigation-selected">Архив лекций</span>
 					<% else %>
-					<a href="<%= base_url %>/faq/students" class="head-navigation-link">Слушателям</a>
+					<a href="<%= base_url %>/archive" class="head-navigation-link">Архив лекций</a>
 					<% end %>
+
 					
 					<% if current_page.data.menu_item == "speakers" %>
 					<span class="head-navigation-selected">Докладчикам</span>

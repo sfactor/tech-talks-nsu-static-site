@@ -22,6 +22,19 @@
 	<meta name="description" content="" />
 	<meta name="author" content="" />
 
+<% if current_page.data.lecture_id %>
+	<meta property="og:title" content="<%= title %>" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="<%= base_url %>" />
+	<meta property="og:image" content="<%= base_url %>/<%= current_page.data.lecture_id %>/lecturer.jpg" />
+<% else %>
+	<meta property="og:title" content="<%= title %>" />
+	<meta property="og:description" content="Tech Talks @NSU — еженедельные открытые лекции о разработке ПО и карьере в IT. Проводятся в Новосибирском государственном университете. Вход свободный." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="<%= base_url %>" />
+	<meta property="og:image" content="<%= base_url %>/img/logo-new.png" />
+<% end %>
+
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="<%= base_url %>/img/apple-touch-icon-57x57.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= base_url %>/img/apple-touch-icon-114x114.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%= base_url %>/img/apple-touch-icon-72x72.png" />
@@ -53,7 +66,7 @@
 
 
 	<!-- <Scripts -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
     <script src="http://malsup.github.com/jquery.form.js"></script>
 	<script src="<%= base_url %>js/scripts.js"></script>
 	<!-- Scripts> -->
@@ -82,13 +95,13 @@
 					<% else %>
 					<a href="<%= base_url %>/faq/students" class="head-navigation-link">Слушателям</a>
 					<% end %>
-					
+
 					<% if current_page.data.menu_item == "speakers" %>
 					<span class="head-navigation-selected">Докладчикам</span>
 					<% else %>
 					<a href="<%= base_url %>/faq/speakers" class="head-navigation-link">Докладчикам</a>
 					<% end %>
-					
+
 					<% if current_page.data.menu_item == "contacts" %>
 					<span class="head-navigation-selected">Контакты</span>
 					<% else %>
@@ -107,7 +120,7 @@
 			<section class="content-box feedback-box text-center">
 				<h2 class="med-title">Интересно? Оставьте вашу почту, чтобы быть в курсе расписания и анонсов лекций</h2>
 				<form id="feedback" class="feedback-form" action="https://docs.google.com/forms/d/1pX4ZjRHJCMx3TYMW_YSFpa98Pu7kgfoqMrG020zC8KI/viewform"
-					method="get"> 
+					method="get">
 					<input type="text" placeholder="Ваш e-mail" name="entry.1753437283">
 					<input type="submit" value="Подписаться" class="red-button">
 				</form>

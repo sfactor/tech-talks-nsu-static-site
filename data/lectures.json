@@ -2,6 +2,22 @@
 "lectures":
 [
 {
+        "id": 75,
+        "date": "2016-03-09",
+        "season": "2016spring",
+        "time": "18:30",
+        "title": " Что такое DevOps",
+        "lecturer": "Денис Яковлев",
+        "lecturer_company": "2ГИС",
+        "lecturer_pic": true,
+        "company_pic": true,
+        "description": " Слово <a href=\"https://ru.wikipedia.org/wiki/DevOps\">DevOps</a> сейчас можно встретить в самых разных (и зачастую неожиданных) местах: и в описаниях вакансий, и в резюме соискателей, и в докладах на различных конференцях. <br> В этом докладе мы разберем, что же такое DevOps – название профессии, модный buzzword или нечто более сложное и действительно полезное. Кроме того, мы обсудим, из чего и из кого складываются эти самые 'development operations'.",
+        "location": "Лабораторный корпус НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 2</a>, аудитория 121а",
+        "speakerdeck_id": null,
+        "speakerdeck_url": null,
+        "live_broadcast_url": null
+},
+{
         "id": 71,
         "date": "2015-11-24",
         "season": "2015autumn",
@@ -186,7 +202,7 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=blXQTBiYbzs",
         "speakerdeck_id": "62b1a89803224a33ae02d12e94050047",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/aot-kompiliatsiia-java" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/aot-kompiliatsiia-java"
 },
 
 {
@@ -202,7 +218,7 @@
         "description": "Гибкий и понятный код, легко поддающийся модификации и не скрывающий неприятных сюрпризов от своих создателей. Как оказывается, это не сказка! Всего этого позволяет добиться методика разработки через тестирование - test-driven development. Она основана на первый взгляд на парадоксальной идее создавать тесты до написания тестируемого прикладного кода.  <br/><br/> Мы расскажем о принципах TDD и их применении на разных стадиях разработки от проектирования до рефакторинга, о преимуществах и недостатках модульного тестирования в среде iOS, а также о применении TDD к уже существующим приложениям. ",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=W7Os4or91wA",
-        "speakerdeck_id": "ee2691774b5a40d19594527781c86881", 
+        "speakerdeck_id": "ee2691774b5a40d19594527781c86881",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/tdd-razrabotka-chieriez-tiestirovaniie-dlia-ios"
 },
 
@@ -217,10 +233,10 @@
         "lecturer_pic": true,
         "company_pic": false,
         "description": "Вы наверняка слышали, что в последнее время далеко не все теоремы доказываются вручную (<a href=\"http://www.sciencedirect.com/science/article/pii/S0167642309000240\">вот</a>, например, автоматизированный вывод свойств вероятностных алгоритмов, а <a href=\"http://www.ams.org/notices/200811/tx081101382p.pdf\">вот</a> полностью автоматическое доказательство всем известной теоремы о четырех красках). <br/><br/> Как именно работают системы автоматических доказательств и что за языки лежат в их основе? Похоже ли построение автоматических доказательств на программирование? Могу ли я доказывать свои любимые теоремы на C или C++? <br/><br/> В рамках лекции прозвучат ответы на эти и другие вопросы, а также будет проведен небольшой вводный инструктаж по <a href=\"http://en.wikipedia.org/wiki/Coq\">Coq</a>.",
-        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": null,
         "speakerdeck_id": "950acee36c804fd995122e003b7d057d",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/avtomatichieskoie-dokazatiel-stvo-tieoriem" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/avtomatichieskoie-dokazatiel-stvo-tieoriem"
 },
 
 {
@@ -234,10 +250,10 @@
         "lecturer_pic": true,
         "company_pic": true,
         "description": "Если вы интересуетесь веб-разработкой, то вы наверняка слышали слово \"highload\". Это модно, это интересно, все хотят это попробовать на себе. Но мало кто знает, что на самом деле значит \"highload\" или \"высокие нагрузки\" и что нужно знать, чтобы правильно \"готовить\" высоконагруженный проект. <br/><br/> Мы поговорим о том, что же такое highload, узнаем, с какими проблемами может сталкнуться условный веб-проект при росте нагрузки и попробуем решить эти проблемы. Также мы обсудим, какие подходы и инструменты должен знать веб-разработчик, чтобы успешно справиться с любыми нагрузками.",
-        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=6PDtlAzFRlE",
         "speakerdeck_id": "5be241504c660132129f2ee134ae9694",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/chto-takoie-highload" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/chto-takoie-highload"
 },
 
 {
@@ -251,10 +267,10 @@
         "lecturer_pic": true,
         "company_pic": true,
         "description": "Несмотря на то, что функциональное программирование существует уже 60 лет, до сих пор оно оставалось в тени императивного программирования, а разработчики о нем знали лишь потому, что в университетах иногда есть некая туманная дисциплина с таким названием. Но сегодня, когда стало ясно, что ООП не является панацеей в борьбе со сложностью ПО, о функциональном программировании внезапно вспомнили: оказалось, что идеи, которые оно предлагает, помогают решать традиционные задачи более простым и элегантным способом. Современные мэйнстримные языки, в развитии своем исчерпав все лимиты из ООП и императивного программирования, двинулись в сторону функционального программирования.<br/><br/> В лекции будет рассказано о наиболее значимых идеях и принципах, которые вышли из мира функционального программирования и с успехом покоряют умы современных мэйнстрим-разработчиков.",
-        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=f6Xk-CLUcF4",
         "speakerdeck_id": "6ca75c704fbc0132493b0a7b94f992b5",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/back-to-the-future-funktsional-noie-proghrammirovaniie-vchiera-i-sieghodnia" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/back-to-the-future-funktsional-noie-proghrammirovaniie-vchiera-i-sieghodnia"
 },
 
 {
@@ -268,7 +284,7 @@
         "lecturer_pic": true,
         "company_pic": true,
         "description": "Что лучше: UTF-8, UTF-16 или UTF-32? Сколькими байтами кодируется одна буква в UTF-16? Почему использование слова «буква» в предыдущем вопросе некорректно? Почему правильно реализовать strlen() или функцию переворачивания строки вовсе не так просто, как кажется? И почему, чёрт возьми, при попытке вывести русские буквы в консоль я вижу кракозябры? <br/><br/> В лекции будут даны ответы на эти и некоторые другие вопросы о Unicode. Бонусом мы расскажем краткую историю кодировок от начала времен (точнее, от времен DOS CP 866 и KOI8-R).",
-        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=3ANs6dccr6w",
         "speakerdeck_id": "91dd55904627013234d17a3f7c519e69",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/vsio-chto-vy-khotieli-znat-pro-unicode-no-boialis-sprosit"
@@ -285,10 +301,10 @@
         "lecturer_pic": true,
         "company_pic": true,
         "description": "Эта лекция является введением в раздел криптоанализа, занимающийся атаками по сторонним каналам (side channel attacks). Мы поговорим о разных каналах, через которые может происходить утечка информации (энергопотребление, электромагнитное излучение, задержки выполнения программы...) и разберем несколько реально работающих атак такого типа на примерах реализации алгоритмов шифрования. Еще мы немного обсудим общие принципы защиты от подобных атак.",
-        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=fJCSYL9jc7Y",
         "speakerdeck_id": "5dc1d5c03bd20132ed0c3a2ff4764c03",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/side-channel-attacks" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/side-channel-attacks"
 },
 
 {
@@ -302,10 +318,10 @@
         "lecturer_pic": true,
         "company_pic": true,
         "description": "Spotify — один из самых популярных в мире сервисов стриминга музыки. Он появился в Швеции, стране, где 10 лет назад практически все онлайн-потребление музыки происходило через The Pirate Bay. За последние несколько лет Spotify не только обогнал все легальные и нелегальные способы распространения музыки в Скандинавии, но и начал активно завоевывать себе пространство по всей планете. Сейчас Spotify – это 58 стран и более 40 миллионов пользователей. Сервис быстро растет и при этом остается быстрым, устойчивым и постоянно доступным. К тому же так вышло, что архитектура, которую мы последовательно выстраиваем последние 6 лет, сравнительно недавно получила новое имя \"Microservices\" и стала дико популярна среди хипстеров от программирования. Мы поговорим о том, как это все выглядит изнутри и почему все получилось именно так. Митболлы и смуззи брать на лекцию не обязательно.",
-        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=BqtLzbhYuh8",
         "speakerdeck_id": "e8f7ffd035e80132343b52ef75abd035",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/pressing-play-at-spotify" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/pressing-play-at-spotify"
 },
 
 {
@@ -321,7 +337,7 @@
         "description": "Код клиента — это не просто набор кнопок и их обработчиков, это такой же код, как и весь остальной код проекта. Он должен быть чистым, понятным, пригодным для переиспользования. Если внутри ваш код выглядит хорошо, то и пользователь увидит хороший UI. Со временем проект может разрастись и стать тяжело поддерживаемым для разработчиков и сложным в восприятии конечными пользователями. В докладе рассказывается о подходах к написанию кода клиентских приложений, построенных на WPF, и о том, как не допустить хаоса при длительной разработке клиентского кода.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=wMQH-Jd65Mo",
-        "speakerdeck_id": null 
+        "speakerdeck_id": null
 },
 
 {
@@ -338,7 +354,7 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=9sWD3RBwz30",
         "speakerdeck_id": "9eddb330295d01321a10562d5512248d",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/prokhodim-tiest-dzhoela" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/prokhodim-tiest-dzhoela"
 },
 
 {
@@ -355,7 +371,7 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=Y4ooPiNgxwo",
         "speakerdeck_id": "a22bdc7024a3013299ff7e85eb08a929",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/machine-learning-for-fun-and-profit"         
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/machine-learning-for-fun-and-profit"
 },
 
 {
@@ -370,7 +386,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": "022b3710bc140131ff382eee13ef8423",         
+        "speakerdeck_id": "022b3710bc140131ff382eee13ef8423",
         "speakerdeck_url": "https://speakerdeck.com/industry101/razrabotka-po-v-inviestitsionnykh-bankakh",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
@@ -473,7 +489,7 @@
         "youtube_url": null,
         "speakerdeck_id": "12264170fafb4350b6a124dd5d53dedd",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/ustraivaiemsia-na-rabotu-v-zarubiezhnuiu-kompaniiu",
-        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"        
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
 {
@@ -808,7 +824,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": "http://www.youtube.com/watch?v=jw4QKTFds3c",
-        "speakerdeck_id": "2fe200908d9e0130e44822000a9d03e8",         
+        "speakerdeck_id": "2fe200908d9e0130e44822000a9d03e8",
         "speakerdeck_url": "https://speakerdeck.com/industry101/sierghiei-vysotskii-krasochnyi-mir-tiestirovaniia",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
@@ -926,9 +942,9 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": "5a241a008435013081d822000a1e92d1", 
+        "speakerdeck_id": "5a241a008435013081d822000a1e92d1",
         "speakerdeck_url": "https://speakerdeck.com/industry101/alieksandr-poghriebniak-obzor-ighrovoi-industrii",
-        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"        
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 
 },
 {
@@ -961,7 +977,7 @@
         "youtube_url": null,
         "speakerdeck_id": "21317aa08487013081d922000a1e92d1",
         "speakerdeck_url": "https://speakerdeck.com/industry101/siemien-faktorovich-siervisnyie-i-produktovyie-kompanii",
-        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223" 
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 
 },
 {
@@ -1025,7 +1041,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": "589f1bfc68a44ddb828b9e24c4258fa8",         
+        "speakerdeck_id": "589f1bfc68a44ddb828b9e24c4258fa8",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/istorii-iz-zhizni-pro-sozdaniie-startapov-it-biznies-i-khakierstvo",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
@@ -1093,7 +1109,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": "5fa372933fdf4eb797d3651da1670b3a",         
+        "speakerdeck_id": "5fa372933fdf4eb797d3651da1670b3a",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-olimpiadnoie-proghrammirovaniie-nie-isportilo-moiu-zhizn-a-takzhie-o-pol-zie-fundamiental-nykh-znanii-v-niesier-ioznykh-zaniatiiakh",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
@@ -1110,7 +1126,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": "e129217450ee4d06975f04357c96a12a",      
+        "speakerdeck_id": "e129217450ee4d06975f04357c96a12a",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/orghanizatsiia-tiestirovaniia-v-it-kompaniiakh-akadiemghorodka-kar-iernyi-put-tiestirovshchika"   ,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
@@ -1127,7 +1143,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": "c9a7c52ad8af40b5a0dda837e76170ed",        
+        "speakerdeck_id": "c9a7c52ad8af40b5a0dda837e76170ed",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/mir-open-source-mir-vozmozhnostiei" ,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
@@ -1144,7 +1160,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": "b82d888a333d41d9bcecf4b592c010ce",   
+        "speakerdeck_id": "b82d888a333d41d9bcecf4b592c010ce",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-v-2gis-dielaiut-vieb-proiekty"      ,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
@@ -1161,7 +1177,7 @@
         "company_pic": false,
         "description": null,
         "youtube_url": null,
-        "speakerdeck_id": "55acf5cb4e5a40958ec056c967b34df1",      
+        "speakerdeck_id": "55acf5cb4e5a40958ec056c967b34df1",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/mietodologhii-razrabotki-po"   ,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },

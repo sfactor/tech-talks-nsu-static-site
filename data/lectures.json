@@ -2,6 +2,23 @@
 "lectures":
 [
 {
+        "id": 75,
+        "date": "2016-03-09",
+        "season": "2016spring",
+        "time": "18:30",
+        "title": "Что такое DevOps",
+        "lecturer": "Денис Яковлев",
+        "lecturer_company": "2ГИС",
+        "lecturer_pic": true,
+        "company_pic": true,
+        "description": " Слово <a href=\"https://ru.wikipedia.org/wiki/DevOps\">DevOps</a> сейчас можно встретить в самых разных (и зачастую неожиданных) местах: и в описаниях вакансий, и в резюме соискателей, и в докладах на различных конференцях. <br><br> В этом докладе мы разберем, что же такое DevOps – название профессии, модный buzzword или нечто более сложное и действительно полезное. Кроме того, мы обсудим, из чего и из кого складываются эти самые 'development operations'. <br><br> Если вы не являетесь студентом или сотрудником НГУ, то для участия в лекции вам нужно зарегистрироваться <a href=\"http://goo.gl/forms/nwNYFfLQK7\" target=\"_blank\">вот здесь</a>.",
+        "location": "Лабораторный корпус НГУ, <a href=\"http://go.2gis.com/kd93l\">Пирогова 2</a>, аудитория 121а",
+        "speakerdeck_id": null,
+        "speakerdeck_url": null,
+        "live_broadcast_url": "http://www.youtube.com/watch?v=IrfphetWpWU"
+},
+
+{
         "id": 74,
         "date": "2015-12-15",
         "season": "2015autumn",

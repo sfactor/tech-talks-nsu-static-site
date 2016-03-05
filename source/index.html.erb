@@ -37,9 +37,18 @@ company_pic_style: "width:30%;"
 </div>
 
 <section class="content-box">
-	<div class="secondary-title"><b>Тема осеннего сезона 2015 года: «Разработка и технологии»</b></div>
+	<div class="secondary-title text-center"><b>Тема весеннего сезона 2016 года: «Профессии и карьера в IT»</b></div>
+    <div class="med-title text-center">
+        <br/>
+        Новый сезон начнется в конце февраля, и мы как раз <a href="<%= base_url %>/faq/speakers">ищем докладчиков</a>.
+        <br/>
+        <br/>
+        А пока можете посмотреть лекции осеннего сезона:
+        <br/><br/>
+    </div>
+    
 </section>
-	
+<!--	    
 <section class="content-box">
                         <div class="lecture">
                                         <% if lecture.lecturer_pic == true %>
@@ -87,18 +96,18 @@ company_pic_style: "width:30%;"
 </section>
 
 
-    <div class = "text-center med-title">
-        Предыдущие лекции этого сезона
-        <br/>
-    </div>
-
+<div class = "text-center med-title">
+    Предыдущие лекции этого сезона
+    <br/>
+</div>
+-->
 
 <section class="content-box">
 			<ul class="lectures-list">
-				<% for l in data.lectures.lectures.select {|l| l.season == '2015autumn' && l.id != lecture.id}.sort {|a,b| b.id <=> a.id}  %>
+				<% for l in data.lectures.lectures.select {|l| l.season == '2015autumn' && l.id != lecture.id + 1}.sort {|a,b| b.id <=> a.id}  %>
 				<li class="lecture-list-box old">
 					<div class="lecture-list-date" >
-						<%= russian_date(l.date, false) %>
+						<%= russian_date(l.date, true) %>
 					</div>
 					<div class="lecture-list-content">
 						<h2 class="med-title">

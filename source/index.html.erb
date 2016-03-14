@@ -1,13 +1,16 @@
 ---
-lecturer_pic_style: "height: 100%;"
-company_pic_style: "width:30%;"
+company_pic_style: "height:10%;"
 ---
 
 
-<% lecture = data.lectures.lectures.max_by {|l| l.id} %>
+<% lecture = data.lectures.lectures.select {|l| l.id == 76}.first %>
+
+<% lecture2 = data.lectures.lectures.max_by {|l| l.id} %>
+
+
 <% youtube_id = nil %>
 
-<% if lecture.youtube_url %>
+<% if lecture.youtube_url? %>
 <% youtube_id = /.*v=(.*)/.match(lecture.youtube_url)[1] %>
 <% end %>
 
@@ -95,9 +98,53 @@ company_pic_style: "width:30%;"
                                         
                                 </div>
                         </div>
+
+
+                        <div class="lecture">
+                                        <% if lecture2.lecturer_pic == true %>
+                                <div class="lecture-img-box">
+                                        <% if current_page.data.lecturer_pic_override? %>
+                                        <img src="<%= base_url %>/<%= lecture2.id %>/<%= current_page.data.lecturer_pic_override %>" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
+                                        <% else %> 
+                                        <img src="<%= base_url %>/<%= lecture2.id %>/lecturer.jpg" class="lecture-img" style="width:105%">
+                                        <% end %> 
+
+                                        <div class="lecture-img-layer"></div>
+                                        <% if lecture2.company_pic == true %>
+                                        <div class="lecture-img-logo" style="height: 5%">
+                                                <img src="<%= base_url %>/<%= lecture2.id %>/company.jpg" alt=""/ >
+                                        </div>
+                                        <% end %>
+                                </div>
+                                <% end %>
+                                <div class="lecture-content">
+                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture2.date, false) %> , <%= lecture2.time %>
+                                        </span></div>
+
+                                        <h1 class="big-title lecture-title">
+                                                <a href="<%= base_url %>/<%= lecture2.id %>"><%= lecture2.title %></a>
+                                        </h1>
+                                        <div class="lecture-author"><%= lecture2.lecturer%>, <%= lecture2.lecturer_company %></div>
+                                        <div class="lecture-text">
+                                        <%= lecture2.description%>
+                                        </div>
+
+                                        <% if lecture2.location %>
+                                        <div class="lecture-location">
+                                        <%= lecture2.location %>
+                                        </div>
+                                        <% if lecture2.live_broadcast_url %>
+                                                <p>
+                                                        <a href="<%= lecture2.live_broadcast_url %>" class="live-link">Прямая трансляция</a>
+                                                </p>
+                                        <% end %>
+                                        <% end %>
+
+                                        
+                                </div>
+                        </div>
 </section>
 
-<% if false %>
 <div class = "text-center med-title">
     Предыдущие лекции этого сезона
     <br/>
@@ -106,7 +153,7 @@ company_pic_style: "width:30%;"
 
 <section class="content-box">
 			<ul class="lectures-list">
-				<% for l in data.lectures.lectures.select {|l| l.season == '2015autumn' && l.id != lecture.id + 1}.sort {|a,b| b.id <=> a.id}  %>
+				<% for l in data.lectures.lectures.select {|l| l.season == '2016spring' && l.id < lecture.id }.sort {|a,b| b.id <=> a.id}  %>
 				<li class="lecture-list-box old">
 					<div class="lecture-list-date" >
 						<%= russian_date(l.date, true) %>
@@ -132,7 +179,6 @@ company_pic_style: "width:30%;"
 			</ul>
 </section>
 
-<% end %>
 
 <div class = "text-center med-title">
 		А еще можете посмотреть <a href="<%= base_url%>/archive"><%= lecture_count %> <%= lecture_word %></a>, которые мы читали в прошлых сезонах

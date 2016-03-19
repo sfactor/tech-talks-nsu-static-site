@@ -5,7 +5,7 @@ company_pic_style: "height:10%;"
 
 <% lecture = data.lectures.lectures.select {|l| l.id == 76}.first %>
 
-<% lecture2 = data.lectures.lectures.max_by {|l| l.id} %>
+<% lecture2 = data.lectures.lectures.select {|l| l.id == 77}.first %>
 
 
 <% youtube_id = nil %>

@@ -1,0 +1,145 @@
+---
+lecture_id: 79
+layout: layout
+---
+
+<% current_lecture_id = current_page.data.lecture_id %>
+<% lecture = data.lectures.lectures.find {|l| l.id == current_lecture_id} %>
+<% youtube_id = nil %>
+
+<% lecture_count = data.lectures.lectures.select {|l| Date.parse(l.date) < Date.today}.count %>
+<% lecture_word = inflict_lectures (lecture_count) %>
+
+<% if lecture.youtube_url? %>
+<% youtube_id = /.*v=(.*)/.match(lecture.youtube_url)[1] %>
+<% end %>
+
+
+<% 
+
+begin
+        lecture_date = Date.parse(lecture.date)
+rescue
+        lecture_date = nil
+end
+
+%>       
+
+<% no_materials = lecture.description.nil? && lecture.youtube_url.nil? && lecture.speakerdeck_id.nil? || lecture.no_materials %>
+
+
+
+
+<section class="content-box">
+                        <div class="lecture">
+                                        <% if lecture.lecturer_pic == true %>
+                                <div class="lecture-img-box">
+                                        <% if current_page.data.lecturer_pic_override? %>
+                                        <img src="<%= base_url %>/<%= current_lecture_id %>/<%= current_page.data.lecturer_pic_override %>" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
+                                        <% else %> 
+                                        <img src="<%= base_url %>/<%= current_lecture_id %>/lecturer.jpg" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
+                                        <% end %> 
+                                        <div class="lecture-img-layer"></div>
+                                        <% if lecture.company_pic == true %>
+                                        <div class="lecture-img-logo" style="<%= current_page.data.company_pic_style %>">
+                                                <img src="<%= base_url %>/<%= current_lecture_id %>/company.jpg" alt=""/ >
+                                        </div>
+                                        <% end %>
+                                </div>
+                                <% end %>
+                                <div class="lecture-content">
+                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date) %><% if lecture_date >= Date.today %>, <%= lecture.time %><% end %>
+                                        </span></div>
+
+                                        <h1 class="big-title lecture-title">
+                                                <a href="<%= base_url %>/yandex"><%= lecture.title %></a>
+                                        </h1>
+                                        <div class="lecture-author"><%= lecture.lecturer%>, <%= lecture.lecturer_company %></div>
+                                        <div class="lecture-text">
+                                        <%= lecture.description%>
+                                        </div>
+
+                                        <% if lecture.location %>
+                                        <div class="lecture-location">
+                                        <%= lecture.location %>
+                                        </div>
+                                        <% if lecture.live_broadcast_url %>
+                                                <p>
+                                                        <a href="<%= lecture.live_broadcast_url %>" class="live-link">Прямая трансляция</a>
+                                                </p>
+                                        <% end %>
+                                        <% end %>
+
+                                        
+                                </div>
+                        </div>
+                        
+                <% if no_materials == true%>
+                        <div class="med-title text-center">  
+                                К сожалению, история не сохранила для нас ни слайдов, ни видео этого доклада. 
+                                <br>
+                                Но память о нем живет в наших сердцах!
+                                <br>
+                                <br>
+                        </div>        
+                <% end %>
+
+</section>
+
+<section class="content-box feedback-box text-center">
+        <h2 class="med-title">Для участия в лекции необходимо зарегистрироваться</h2>
+        <form id="registerForm" class="feedback-form" action='https://www.getform.org/f/94c16571-3468-49c3-868d-0ea35be3f4cf' method="POST"> 
+                <input type="text" style="width: 450px" placeholder="Имя *" name="firstname" required><br><br>
+                <input type="text" style="width: 450px" placeholder="Фамилия *" name="lastname" required><br><br>
+                <input type="text" style="width: 450px" placeholder="Email *" name="email" required><br><br>
+                <input type="text" style="width: 450px" placeholder="Учебное заведение (если вы студент)" name="university"><br><br>
+                <input type="text" style="width: 450px"placeholder="Место работы (если вы работаете)" name="company"><br><br>
+                <br>
+                <input type="submit" value="Зарегистрироваться" class="red-button">
+        </form>
+        <script>
+                $("#registerForm").validate({
+  rules: {
+        email: {email:true}
+  },
+
+  messages: {
+    firstname: "",
+    email: "",
+    lastname: "",
+  }})
+        </script>
+</section>
+
+<% if youtube_id || lecture.speakerdeck_id %>
+<section class="content-box">
+                        <div class="two-cols">
+                                <% if youtube_id %>
+                                <div class="col">
+                                        <h2 class="med-title">Видеозапись</h2>
+                                        <iframe width="<%= current_page.data.youtube_width.nil? ? 460 : current_page.data.youtube_width %>" height="<%= current_page.data.youtube_height.nil? ? 407 : current_page.data.youtube_height %>" src="//www.youtube.com/embed/<%= youtube_id %>" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <% end %>
+                                
+                                <% if lecture.speakerdeck_id%>
+                                <div class="col">
+                                        <h2 class="med-title">Слайды</h2>
+                                        <script async class="speakerdeck-embed" data-id="<%= lecture.speakerdeck_id %>" data-ratio="<%= current_page.data.speakerdeck_ratio.nil? ? "1.3333333333" : current_page.data.speakerdeck_ratio %>" src="//speakerdeck.com/assets/embed.js"></script>
+                                </div>
+                                <% end %>
+                        
+                        </div>
+                </section>
+<% end %>
+<div class = "text-center med-title">
+<% if no_materials %>
+                Зато вы можете посмотреть остальные <a href="<%= base_url%>/archive"> <%= lecture_count %> <%= lecture_word %></a>, которые мы прочитали начиная аж с 2012 года.
+
+<% else %>
+                А еще можете посмотреть остальные <a href="<%= base_url%>/archive"> <%= lecture_count %> <%= lecture_word %></a>, которые мы прочитали начиная аж с 2012 года.
+
+<% end %>
+                <br/>
+</div>
+
+<br/><br/>

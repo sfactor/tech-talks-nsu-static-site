@@ -62,6 +62,12 @@ p{
 	margin-bottom:12px;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+
+input.error {
+    background-color:#FFBBBB;
+}
+
 input[type="submit"]{
 	background: none;
 	border: 0;
@@ -76,6 +82,7 @@ input[type="password"]{
 	letter-spacing: -1px;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
 input[type="text"]::-webkit-input-placeholder{
 	color: #9d9999;
 }

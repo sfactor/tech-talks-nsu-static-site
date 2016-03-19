@@ -42,6 +42,9 @@
 
 #configure :development do
 
+#page '/yandex/index.html', :layout => false
+
+
 activate :deploy do |deploy|
   deploy.method   = :ftp
   deploy.host            = "techtalks.nsu.ru"

@@ -19,7 +19,7 @@
 	<title><%= title %> </title>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="description" content="Tech Talks @NSU: еженедельные открытые лекции о разработке ПО и карьере в IT. Проходят в Новосибирском государственном университете." />
+	<meta name="description" content="Eженедельные открытые лекции о разработке ПО и карьере в IT. Проходят в Новосибирском государственном университете." />
 	<meta name="author" content="" />
 
 <% if current_page.data.lecture_id %>
@@ -69,6 +69,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
     <script src="http://malsup.github.com/jquery.form.js"></script>
 	<script src="<%= base_url %>js/scripts.js"></script>
+	<script src="<%= base_url %>js/jquery.validate.js"></script>
 	<!-- Scripts> -->
 
 </head>
@@ -130,6 +131,12 @@
 			<a href="https://calendar.google.com/calendar/render?cid=nsu.software.industry.101%40gmail.com" class="social-btn"><img src="<%= base_url %>/img/calendar.png" alt="subscribe" style="width: 53px"></a>
 			<a href="http://youtube.com/c/TechTalksNSU" class="social-btn"><img src="<%= base_url %>/img/YT.png" alt="" style="height: 50px"></a>
 		</section>
+	</div>
+
+	<div class="footer-wrapper">
+		<footer class="content-box text-center">
+			© 2012-2016, <a href="http://factorized.net">Семён Факторович</a> и <a href="<%= base_url %>/faq/team">его команда</a>
+		</footer>
 	</div>
 
 

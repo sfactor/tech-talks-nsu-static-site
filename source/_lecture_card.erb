@@ -1,4 +1,3 @@
-<% lecture = #{lecture} %>
 
 <div class="lecture">
                 <% if lecture.lecturer_pic == true %>
@@ -22,11 +21,24 @@
                 </span></div>
 
                 <h1 class="big-title lecture-title">
+                <% if lecture.custom_url? %>
+                        <a href="<%= base_url %>/<%= lecture.custom_url %>"><%= lecture.title %></a>
+
+                <% else %>
                         <a href="<%= base_url %>/<%= lecture.id %>"><%= lecture.title %></a>
+                <% end %>
                 </h1>
                 <div class="lecture-author"><%= lecture.lecturer%>, <%= lecture.lecturer_company %></div>
                 <div class="lecture-text">
                 <%= lecture.description%>
+                <% if lecture.mandatory_registration? %>
+                <br><br>
+                <% if defined? front_page %>
+                Для участия в лекции необходимо <a href="<%= lecture.mandatory_registration%>">зарегистрироваться</a>.
+                <% else %>
+                Для участия в лекции необходимо зарегистрироваться с помощью формы ниже.
+                <% end %>
+                <% end %>
                 </div>
 
                 <% if lecture.location %>

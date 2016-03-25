@@ -11,6 +11,34 @@ title: Архив
 			<h1 class="text-center med-title">C 2012 года мы провели 5 сезонов выступлений и суммарно прочитали <%= lecture_count%> <%= lecture_word %></h1>
 			<br/><br/>
 
+			<h2 class="med-title">Весна 2016: карьера и профессии</h2> 
+
+			<ul class="lectures-list">
+				<% for l in data.lectures.lectures.select {|l| l.season == '2016spring' && Date.parse(l.date) < Date.today}.sort_by {|l| l.id}  %>
+				<li class="lecture-list-box">
+					<div class="lecture-list-date" style="color: #888;">
+						<%= russian_date(l.date) %>
+					</div>
+					<div class="lecture-list-content">
+						<h2 class="med-title">
+							<a href="<%= base_url %>/<%= l.id %>"><strong>
+
+								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
+						</h2>
+						<div class="lecture-author">
+							<%= l.lecturer %>, <%= l.lecturer_company %>
+						</div>
+						<% if l.youtube_url %>
+						<a href="<%= base_url %>/<%= l.id %>" class="live-link live-link_past" title="Видеозапись">Видео лекции</a>
+						<% end %>
+						<% if l.speakerdeck_url %>
+						<a href="<%= base_url %>/<%= l.id %>" class="slides-link slides-link_past" title="Слайды лекции"><i></i>Слайды лекции</a>
+						<% end %>
+					</div>
+				</li>
+				<% end %>
+			</ul>
+
 			<h2 class="med-title">Осень 2015: разработка и технологии</h2> 
 
 			<ul class="lectures-list">

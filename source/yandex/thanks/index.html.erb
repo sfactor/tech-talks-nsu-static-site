@@ -33,48 +33,8 @@ end
 </section>
 
 <section class="content-box">
-                        <div class="lecture">
-                                        <% if lecture.lecturer_pic == true %>
-                                <div class="lecture-img-box">
-                                        <% if current_page.data.lecturer_pic_override? %>
-                                        <img src="<%= base_url %>/<%= current_lecture_id %>/<%= current_page.data.lecturer_pic_override %>" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
-                                        <% else %> 
-                                        <img src="<%= base_url %>/<%= current_lecture_id %>/lecturer.jpg" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
-                                        <% end %> 
-                                        <div class="lecture-img-layer"></div>
-                                        <% if lecture.company_pic == true %>
-                                        <div class="lecture-img-logo" style="<%= current_page.data.company_pic_style %>">
-                                                <img src="<%= base_url %>/<%= current_lecture_id %>/company.jpg" alt=""/ >
-                                        </div>
-                                        <% end %>
-                                </div>
-                                <% end %>
-                                <div class="lecture-content">
-                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date) %><% if lecture_date >= Date.today %>, <%= lecture.time %><% end %>
-                                        </span></div>
+                       <%= partial(:lecture_card, :locals => { :lecture => data.lectures.lectures.find {|l| l.id == current_lecture_id}, :front_page => true}) %>
 
-                                        <h1 class="big-title lecture-title">
-                                                <a href="<%= base_url %>/yandex"><%= lecture.title %></a>
-                                        </h1>
-                                        <div class="lecture-author"><%= lecture.lecturer%>, <%= lecture.lecturer_company %></div>
-                                        <div class="lecture-text">
-                                        <%= lecture.description%>
-                                        </div>
-
-                                        <% if lecture.location %>
-                                        <div class="lecture-location">
-                                        <%= lecture.location %>
-                                        </div>
-                                        <% if lecture.live_broadcast_url %>
-                                                <p>
-                                                        <a href="<%= lecture.live_broadcast_url %>" class="live-link">Прямая трансляция</a>
-                                                </p>
-                                        <% end %>
-                                        <% end %>
-
-                                        
-                                </div>
-                        </div>
                         
                 <% if no_materials == true%>
                         <div class="med-title text-center">  

@@ -2,31 +2,11 @@
 company_pic_style: "height:10%;"
 ---
 
+<% lectures = [79] %>
 
-<% lecture = data.lectures.lectures.select {|l| l.id == 76}.first %>
-
-<% lecture2 = data.lectures.lectures.select {|l| l.id == 77}.first %>
-
-
-<% youtube_id = nil %>
-
-<% if lecture.youtube_url? %>
-<% youtube_id = /.*v=(.*)/.match(lecture.youtube_url)[1] %>
-<% end %>
-
-<% 
-
-    begin
-            lecture_date = Date.parse(lecture.date)
-    rescue
-            lecture_date = nil
-    end
-
-%>                 
 
 <% lecture_count = data.lectures.lectures.select{|l| l.season != '2016spring'}.count %>
 <% lecture_word = inflict_lectures (lecture_count) %>
-
 
 
 <div class="gray-box">
@@ -55,94 +35,13 @@ company_pic_style: "height:10%;"
 </section>
 	    
 <section class="content-box">
-                        <div class="lecture">
-                                        <% if lecture.lecturer_pic == true %>
-                                <div class="lecture-img-box">
-                                        <% if current_page.data.lecturer_pic_override? %>
-                                        <img src="<%= base_url %>/<%= lecture.id %>/<%= current_page.data.lecturer_pic_override %>" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
-                                        <% else %> 
-                                        <img src="<%= base_url %>/<%= lecture.id %>/lecturer.jpg" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
-                                        <% end %> 
 
-                                        <div class="lecture-img-layer"></div>
-                                        <% if lecture.company_pic == true %>
-                                        <div class="lecture-img-logo" style="<%= current_page.data.company_pic_style %>">
-                                                <img src="<%= base_url %>/<%= lecture.id %>/company.jpg" alt=""/ >
-                                        </div>
-                                        <% end %>
-                                </div>
-                                <% end %>
-                                <div class="lecture-content">
-                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture.date, false) %> , <%= lecture.time %>
-                                        </span></div>
+<% for lecture_id in lectures %>
 
-                                        <h1 class="big-title lecture-title">
-                                                <a href="<%= base_url %>/<%= lecture.id %>"><%= lecture.title %></a>
-                                        </h1>
-                                        <div class="lecture-author"><%= lecture.lecturer%>, <%= lecture.lecturer_company %></div>
-                                        <div class="lecture-text">
-                                        <%= lecture.description%>
-                                        </div>
+<%= partial(:lecture_card, :locals => { :lecture => data.lectures.lectures.find {|l| l.id == lecture_id}, :front_page => true}) %>
 
-                                        <% if lecture.location %>
-                                        <div class="lecture-location">
-                                        <%= lecture.location %>
-                                        </div>
-                                        <% if lecture.live_broadcast_url %>
-                                                <p>
-                                                        <a href="<%= lecture.live_broadcast_url %>" class="live-link">Прямая трансляция</a>
-                                                </p>
-                                        <% end %>
-                                        <% end %>
+<% end %> 
 
-                                        
-                                </div>
-                        </div>
-
-
-                        <div class="lecture">
-                                        <% if lecture2.lecturer_pic == true %>
-                                <div class="lecture-img-box">
-                                        <% if current_page.data.lecturer_pic_override? %>
-                                        <img src="<%= base_url %>/<%= lecture2.id %>/<%= current_page.data.lecturer_pic_override %>" class="lecture-img" style="<%= current_page.data.lecturer_pic_style %>">
-                                        <% else %> 
-                                        <img src="<%= base_url %>/<%= lecture2.id %>/lecturer.jpg" class="lecture-img" style="width:105%">
-                                        <% end %> 
-
-                                        <div class="lecture-img-layer"></div>
-                                        <% if lecture2.company_pic == true %>
-                                        <div class="lecture-img-logo" style="height: 5%">
-                                                <img src="<%= base_url %>/<%= lecture2.id %>/company.jpg" alt=""/ >
-                                        </div>
-                                        <% end %>
-                                </div>
-                                <% end %>
-                                <div class="lecture-content">
-                                        <div class="lecture-date"><span class="red-bg"><%= russian_date(lecture2.date, false) %> , <%= lecture2.time %>
-                                        </span></div>
-
-                                        <h1 class="big-title lecture-title">
-                                                <a href="<%= base_url %>/<%= lecture2.id %>"><%= lecture2.title %></a>
-                                        </h1>
-                                        <div class="lecture-author"><%= lecture2.lecturer%>, <%= lecture2.lecturer_company %></div>
-                                        <div class="lecture-text">
-                                        <%= lecture2.description%>
-                                        </div>
-
-                                        <% if lecture2.location %>
-                                        <div class="lecture-location">
-                                        <%= lecture2.location %>
-                                        </div>
-                                        <% if lecture2.live_broadcast_url %>
-                                                <p>
-                                                        <a href="<%= lecture2.live_broadcast_url %>" class="live-link">Прямая трансляция</a>
-                                                </p>
-                                        <% end %>
-                                        <% end %>
-
-                                        
-                                </div>
-                        </div>
 </section>
 
 <div class = "text-center med-title">
@@ -153,7 +52,7 @@ company_pic_style: "height:10%;"
 
 <section class="content-box">
 			<ul class="lectures-list">
-				<% for l in data.lectures.lectures.select {|l| l.season == '2016spring' && l.id < lecture.id }.sort {|a,b| b.id <=> a.id}  %>
+				<% for l in data.lectures.lectures.select {|l| l.season == '2016spring' && !(lectures.include? l.id) }.sort {|a,b| b.id <=> a.id}  %>
 				<li class="lecture-list-box old">
 					<div class="lecture-list-date" >
 						<%= russian_date(l.date, true) %>

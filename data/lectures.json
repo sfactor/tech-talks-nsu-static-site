@@ -630,6 +630,7 @@
         "youtube_url": "http://www.youtube.com/watch?v=PHmq0E8Q1C8",
         "speakerdeck_id": "993f008abff14cc48550b4726d4635ca",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-inzhieniery-sozdavali-kontoru-dlia-inzhienierov"       ,
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61128604",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -647,6 +648,7 @@
         "youtube_url": "http://www.youtube.com/watch?v=8l65crLxgPQ",
         "speakerdeck_id": "014ffc6a88cd4257a230c8128328b509",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/shtatnyi-paranoik-rol-ofitsiera-informatsionnoi-biezopasnosti-v-kompanii"         ,
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61128490",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -664,6 +666,7 @@
         "youtube_url": "http://www.youtube.com/watch?v=_alDXh2met4",
         "speakerdeck_id": "046730e382ab45bb8e10230f773fbca7",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-ia-stala-tiekhnichieskim-pisatieliem"         ,
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61128405",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -681,6 +684,7 @@
         "youtube_url": "http://www.youtube.com/watch?v=tzrIQebeB94",
         "speakerdeck_id": "56198f6d6577474cb268fd7fbbdf2b4c",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/tiestirovshchik-budushchiegho"         ,
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61128353",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -698,6 +702,7 @@
         "youtube_url": null,
         "speakerdeck_id": "12264170fafb4350b6a124dd5d53dedd",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/ustraivaiemsia-na-rabotu-v-zarubiezhnuiu-kompaniiu",
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61128181",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"        
 },
 
@@ -733,6 +738,7 @@
         "youtube_url": "http://www.youtube.com/watch?v=ivLcPULw3os",
         "speakerdeck_id": "418ceac090250131fb6172fa4d45953a",
         "speakerdeck_url": "https://speakerdeck.com/industry101/zachiem-nuzhny-mieniedzhiery-proiektov"   ,
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61127834",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -750,6 +756,7 @@
         "youtube_url": "http://www.youtube.com/watch?v=M8ECDCo9RmM",
         "speakerdeck_id": "8e66c49093ac0131ace20ee92466b6b2",
         "speakerdeck_url": "https://speakerdeck.com/industry101/piat-avatarov-sistiemnogho-analitika"   ,
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-5",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -767,6 +774,7 @@
         "youtube_url": "http://www.youtube.com/watch?v=2W903npGGMw",
         "speakerdeck_id": "504f66d08f1a0131941f3e2d8ace8b00",
         "speakerdeck_url": "https://speakerdeck.com/industry101/chto-takoie-qa-i-kak-v-niegho-popast"   ,
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-qa-61127689",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -784,6 +792,7 @@
         "youtube_url": "http://www.youtube.com/watch?v=t9sURFrUgUI",
         "speakerdeck_id": "4a5c88008f3301317de21e8cfc450540",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kross-platformiennaia-razrabotka-mobil-nykh-biznies-prilozhienii"         ,
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61127245",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -833,6 +842,7 @@
         "youtube_url": "http://www.youtube.com/watch?v=3ANs6dccr6w",
         "speakerdeck_id": "91dd55904627013234d17a3f7c519e69",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/vsio-chto-vy-khotieli-znat-pro-unicode-no-boialis-sprosit",
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-unicode-61127082",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -850,6 +860,7 @@
         "youtube_url": "http://www.youtube.com/watch?v=sfBrMhAxvFk",
         "speakerdeck_id": "331f9aa028590131549d2e8802ef8f40",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/iazyk-proghrammirovaniia-d-nikolai-tolstokulakov"         ,
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-dlang",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 
@@ -867,6 +878,7 @@
         "youtube_url": null,
         "speakerdeck_id": "6f6533b0285b01310ba602e468fe5747",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/razrabotka-ighr-na-c-plus-plus-roman-kuznietsov",
+	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-c",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
 

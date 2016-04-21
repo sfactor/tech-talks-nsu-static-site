@@ -2,6 +2,41 @@
 "lectures":
 [
 {
+        "id": 85,
+        "date": "2016-04-22",
+        "season": "2016spring",
+        "time": "18:30",
+        "title": "Lean UX и Design Thinking: как создавать востребованные продукты",
+        "lecturer": "Евгений Одновал",
+        "lecturer_company": "ЦФТ, новый платёжный кабинет карты «Кукуруза»",
+        "lecturer_pic": true,
+        "company_pic": true,
+        "description": "Дизайн-мышление — простая и основательная методика создания продуктов, ориентированных на человека. Если дополнить её бережливыми и эффективными бизнес-практиками, то получится методология Lean UX, завоевавшая популярность как у стартапов, так и у крупных компаний. Простота этих методологий заключается в том, что воспользоваться ими может любая команда. Основательность — в том, что они помогают команде понять настоящие проблемы человека и сделать его жизнь лучше. <br><br> Мы поговорим о теоретических основах дизайн-мышления и Lean UX, а также о деталях их практического применения: <br><br> <ul> <li>- С чего начать и к чему стремиться</li> <li>- Как организовать работу команды</li> <li>- Где брать вдохновение</li> <li>- Как из факапа извлечь гениальную идею</li> <li>- Как выйти на рынок с минимальными инвестициями</li> </ul>",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "speakerdeck_id": null,
+        "speakerdeck_url": null,
+        "live_broadcast_url": "http://www.youtube.com/watch?v=It-kMj9pmsM",
+        "youtube_url": null
+},
+{
+        "id": 84,
+        "date": "2016-04-18",
+        "season": "2016spring",
+        "time": "18:30",
+        "title": "Тестировщик: ожидание vs. реальность",
+        "lecturer": "Светлана Алексеева, Ольга Шевелева",
+        "lecturer_company": "2ГИС",
+        "lecturer_pic": true,
+        "company_pic": true,
+        "description": "Зачем мы решили в очередной раз рассказать о том, что такое тестирование, и с чем его едят? Мы довольно часто нанимаем стажеров, то есть людей, у которых раньше не было опыта работы. Они узнают о тестировании из книг, статей и форумов, летних школ, а самые продвинутые – со специальных учебных курсов. Но когда речь заходит о настоящем тестировании, мало кто понимает, чем именно придется заниматься. <br><br> Поэтому мы расскажем не как правильно, а как бывает на самом деле:<br> <ul> <li>- чем еще занимаются тестировщики кроме тестирования</li> <li>- как перестать бояться стажировки</li> <li>- как не сесть в лужу на собеседовании</li> <li>- и несколько историй заблуждений от нас самих и наших коллег</li></ul>",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "speakerdeck_id": "ae004b6d3ef14d349bd61411fefbc566",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/tiestirovshchik-ozhidaniie-vs-rieal-nost",
+        "live_broadcast_url": "http://www.youtube.com/watch?v=uwGJMQ4HhYs",
+        "youtube_url": null,
+        "speakerdeck_url": "http://www.slideshare.net/TechTalksNSU/vs-61090378"
+},
+{
         "id": 83,
         "date": "2016-04-15",
         "season": "2016spring",
@@ -13,10 +48,11 @@
         "company_pic": true,
         "description": "Управление персоналом и связанные с ним активности в IT-компаниях чаще всего называют английским термином Human Resources (HR), а человека, работающего в этой области, обычно называют HR-менеджером. На этой лекции мы поговорим о следующем: <br><br> <ul> <li>- Чем занимается HR-менеджер в IT-компании</li> <li>- Как его роли и задачи меняются в зависимости от размера компании</li> <li>- Чем HR-менеджер отличается от рекрутера</li> <li>- Какими качествами нужно обладать, чтобы преуспеть на этой позиции</li> <li>- Почему формулировка миссии и ценностей компании важны в том числе и для успешного подбора сотрудников</li> </ul> ",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "speakerdeck_id": null,
-        "speakerdeck_url": null,
+        "speakerdeck_id": "518d786358e44056ade0d1b51c51b86a",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/roli-i-zadachi-hr-v-rabotie-it-kompanii",
         "live_broadcast_url": "http://www.youtube.com/watch?v=RspjSPFa3nI",
-        "youtube_url": null
+        "youtube_url": null,
+        "slideshare_url": "http://www.slideshare.net/TechTalksNSU/hr-it-61090180"
 },
 {
         "id": 82,
@@ -28,12 +64,13 @@
         "lecturer_company": "Xored",
         "lecturer_pic": true,
         "company_pic": true,
-        "description": "На этой лекции мы рассмотрим классические модели управления проектами, поговорим о реалиях разработки и о наиболее частых проектных проблемах, с которыми сталкиваются разработчики и менеджеры. <br><br> Среди прочего мы рассмотрим гибкие методологии; как в общем, так и на примере их конкретных представителей (Scrum, XP, Kanban). Также будет рассказано о процессе перехода на Scrum на примере крупного проекта для одного из клиентов компании. <br><br> Кроме того, поскольку гибкие методологии подразумевают гибкие правила, мы прямо на лекции попробуем модифицировать одну из хрестоматийных методологий под нужды конкретного проекта, а именно — немного доработаем Scrum путем добавления в него артефактов из других методологий. ",
+        "description": "На этой лекции мы рассмотрим классические модели управления проектами, поговорим о реалиях разработки и о наиболее частых проектных проблемах, с которыми сталкиваются разработчики и менеджеры. <br><br> Среди прочего мы рассмотрим гибкие методологии; как в общем, так и на примере их конкретных представителей (Scrum, XP, Kanban). Также будет рассказано о процессе перехода на Scrum на примере крупного проекта для одного из клиентов компании. <br><br> Кроме того, поскольку гибкие методологии подразумевают гибкие правила, мы прямо на лекции попробуем модифицировать одну из хрестоматийных методологий под нужды конкретного проекта, а именно — немного доработаем Scrum путем добавления в него артефактов из других методологий.<br><br>Версию слайдов со смешными гифками можно посмотреть <a href=\"https://docs.google.com/presentation/d/1hExRljzgerWml35pfthC3-DalszPuHyp3wq9NTfXMvY/edit\">здесь</a>.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "speakerdeck_id": null,
-        "speakerdeck_url": null,
-        "live_broadcast_url": "http://www.youtube.com/watch?v=c7sV8p-AEjA",
-        "youtube_url": null
+        "speakerdeck_id": "e1c034682f174aeda0b88bee1ffbfe6d",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/gibkiie-mietodologhii-razrabotki-po-v-rieal-nom-mirie",
+        "slideshare_url": "http://www.slideshare.net/TechTalksNSU/ss-61201570",
+        "live_broadcast_url": null,
+        "youtube_url": "https://www.youtube.com/watch?v=ooa5qE7oTQg"
 },
 {
         "id": 81,
@@ -49,8 +86,8 @@
         "location": "Лабораторный корпус НГУ, <a href=\"http://go.2gis.com/kd93l\">Пирогова 2</a>, аудитория 118а",
         "speakerdeck_id": null,
         "speakerdeck_url": null,
-        "live_broadcast_url": "http://www.youtube.com/watch?v=5BTb4rDjd0k",
-        "youtube_url": null
+        "live_broadcast_url": null,
+        "youtube_url": "https://www.youtube.com/watch?v=BTXOKsZMtdU"
 },
 {
         "id": 80,
@@ -66,8 +103,8 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "speakerdeck_id": null,
         "speakerdeck_url": null,
-        "live_broadcast_url": "http://www.youtube.com/watch?v=aLEcLijlUmY",
-        "youtube_url": null
+        "live_broadcast_url": null,
+        "youtube_url": "https://www.youtube.com/watch?v=8tDLBJTsnY0"
 },
 {
         "id": 79,

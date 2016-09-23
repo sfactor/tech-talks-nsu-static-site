@@ -2,6 +2,94 @@
 "lectures":
 [
 {
+        "id": 90,
+        "date": "2016-09-29",
+        "season": "2016autumn",
+        "time": "18:30",
+        "title": "Гуманитарные специальности в IT: технические писатели и аккаунт-менеджеры",
+        "lecturer": "Семён Факторович (HDsoft), Анна Астахова (Noveo)",
+        "lecturer_company": "",
+        "lecturer_pic": true,
+        "company_pic": false,
+        "description": "Первая лекция совместного проекта Tech Talks @NSU и Гуманитарного института НГУ о гуманитарных специальностях в IT-индустрии.<br><br><br><br>Часть 1. Технические писатели<br><br><br><br>Технический писатель — это человек, описывающий простым и понятным языком принципы работы или внутреннее устройство сложных технических систем. В зависимости от индустрии предметом работы технического писателя могут быть, к примеру, инженерные решения, принятые при проектировании авиалайнера, принципы взаимодействия компонентов в операционной системе компьютера или условия эксплуатации шагающих экскаваторов.<br><br><br><br>Технический писатель, с одной стороны, должен очень хорошо разбираться в инженерных аспектах своей предметной области, а с другой — прекрасно владеть письменным русским (и не только) языком. Исторически сложилось так, что большинство технических писателей в России имеют гуманитарное образование, а инженерные компетенции «добирают» уже самостоятельно.<br><br><br><br>Я расскажу вам о технических писателях в IT-индустрии: о том, чем занимаются такие специалисты в российских IT-компаниях, об их инженерном росте и об их роли в создании программных продуктов.<br><br><br><br>Часть 2. Аккаунт-менеджеры<br><br><br><br>Аккаунт-менеджер в IT-компании — это профессия на стыке продаж и управления проектами. Этот специалист обеспечивает выполнение всех необходимых клиенту задач, находит к каждому заказчику индивидуальный подход, поддерживает с ним хорошие отношения даже после того, как все заказы уже выполнены, и предлагает ему новые услуги и продукты. Я расскажу о том, какими профессиональными и личностными качествами должен обладать человек на такой позиции, а также чем ему могут помочь гуманитарное образование в целом и знание иностранных языков в частности.<br><br>",
+        "location": "Главный (старый) корпус НГУ, <a href=\"http://go.2gis.com/14k8f\">Пирогова 2</a>, Мальцевская аудитория (3 этаж)",
+        "speakerdeck_id": null,
+        "speakerdeck_url": null,
+        "live_broadcast_url": null,
+        "youtube_url": null
+},
+
+{
+        "id": 89,
+        "date": "2016-05-13",
+        "season": "2016spring",
+        "time": "18:30",
+        "title": "Карьера во фрилансе",
+        "lecturer": "Антон Херсун",
+        "lecturer_company": "Self-employed",
+        "lecturer_pic": true,
+        "company_pic": false,
+        "description": "Выступление будет посвящено краткому описанию методологии фриланса на основе жизненного опыта докладчика. Будут показаны существенные плюсы и минусы удалённой работы, обсуждены пути входа во фриланс и первые шаги в работе с клиентами и заказами, рост и развитие, достижение карьерных и финансовых вершин вместе с улучшением качества жизни.",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "speakerdeck_id": null,
+        "speakerdeck_url": null,
+        "live_broadcast_url": "http://www.youtube.com/watch?v=Ka1vaGbuUOw",
+        "youtube_url": null
+},
+{
+        "id": 88,
+        "date": "2016-05-04",
+        "season": "2016spring",
+        "time": "18:30",
+        "title": "Немного о Booking.com",
+        "lecturer": "Виктор Билык",
+        "lecturer_company": "Booking.com (Нидерланды)",
+        "lecturer_pic": true,
+        "company_pic": true,
+        "description": "Booking.com — компания с необычным и эффективным подходом к разработке. Код здесь тестируется на реальных пользователях. Здесь всё решают данные, а не мнения людей с наибольшей зарплатой. Здесь полный цикл разработки — от идеи, до того, как изменения увидят пользователи, — может занимать часы, а только что написанный код можно отправить в production за считаные минуты. <br><br> Я расскажу подробнее о том, как это всё работает, немного об A/B тестировании, о реальных историях из области data science и о программе для выпускников в Booking.com.<br><br>Если вы не студент НГУ, то для участия в лекции вам нужно <a href=\"http://goo.gl/forms/2GGoP11Ins\">зарегистрироваться</a> до 8:00 4 мая. После регистрации ваша фамилия появится в списках у охраны, и вас пропустят в НГУ по предъявлению любого документа.",
+        "location": "Главный (старый) корпус НГУ, <a href=\"http://go.2gis.com/14k8f\">Пирогова 2</a>, аудитория 402",
+        "speakerdeck_id": null,
+        "speakerdeck_url": null,
+        "live_broadcast_url": "http://www.youtube.com/watch?v=Ce8E6_u5SGQ",
+        "youtube_url": null
+},
+{
+        "id": 87,
+        "date": "2016-04-29",
+        "season": "2016spring",
+        "time": "18:30",
+        "title": "Стажировки в американских IT-компаниях. Как стать стажером, а главное зачем",
+        "lecturer": "Антон Кочепасов",
+        "lecturer_company": "Rambus Inc (США)",
+        "lecturer_pic": true,
+        "company_pic": true,
+        "description": "Есть ли жизнь после окончания универа, и если есть, то какая? Поможет ли мне стажировка в жизни? Правда ли, что стажеров ищут только большие компании, чтобы было кому приносить пиццу из магазина? Мне сказали, что на стажировку за рубеж пошлют только сына проректора по международной работе, есть ли шанс у меня? Стажировка и программа Work and Travel — это одно и то же? Я слышал, что в Гугл берут только умных, так ли это? Нужно ли знать английский? <br><br> Всё это и многое другое — в нашей обзорной лекция о стажировках за рубежом на примере США.",
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "speakerdeck_id": "832184cd1ed04e0c807b314251906995",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/stazhirovki-v-amierikanskikh-it-kompaniiakh-kak-stat-stazhierom-a-ghlavnoie-zachiem",
+        "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-it-61744371",
+        "live_broadcast_url": "http://www.youtube.com/watch?v=tjxbhq388E0",
+        "youtube_url": null
+},
+{
+        "id": 86,
+        "date": "2016-04-28",
+        "season": "2016spring",
+        "time": "18:30",
+        "title": "Путь студента в IT-бизнес. Как эволюционировать программисту",
+        "lecturer": "Юрий Абдуллин",
+        "lecturer_company": "Sibriver (Томск)",
+        "lecturer_pic": true,
+        "company_pic": false,
+        "description": "<ul> <li>- С чего начать свой профессиональный путь сегодняшнему студенту?</li> <li>- Устраиваться в крупную компанию или идти своим путём?</li> <li>- Стоит ли превращать фриланс в бизнес по разработке на заказ?</li> <li>- Какие проблемы могут ждать молодую IT-компанию?</li> </ul><br>В рамках данной лекции я поделюсь своим опытом прохождения пути от студента до совладельца компании через работу в офисе, затем удалённо и фриланс, сравню эти виды деятельности, опишу плюсы и минусы каждого из них, расскажу, с какими трудностями столкнулся на этом пути. <br><br> Вторая часть будет посвящена тому, как мы создали нашу компанию, какие ошибки совершили и каких результатов добились. В качестве бонуса я поделюсь своими мыслями о личном развитии IT-шника и отвечу на ваши вопросы.",
+        "location": "Лабораторный корпус НГУ, <a href=\"http://go.2gis.com/kd93l\">Пирогова 2</a>, аудитория 118а",
+        "speakerdeck_id": "17c5c4542d954e78aaa92efec3ba292f",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/put-studienta-v-it-biznies",
+        "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-it-61786675",
+        "live_broadcast_url": "http://www.youtube.com/watch?v=lxR8bNyMeno",
+        "youtube_url": null
+},
+{
         "id": 85,
         "date": "2016-04-22",
         "season": "2016spring",
@@ -13,8 +101,9 @@
         "company_pic": true,
         "description": "Дизайн-мышление — простая и основательная методика создания продуктов, ориентированных на человека. Если дополнить её бережливыми и эффективными бизнес-практиками, то получится методология Lean UX, завоевавшая популярность как у стартапов, так и у крупных компаний. Простота этих методологий заключается в том, что воспользоваться ими может любая команда. Основательность — в том, что они помогают команде понять настоящие проблемы человека и сделать его жизнь лучше. <br><br> Мы поговорим о теоретических основах дизайн-мышления и Lean UX, а также о деталях их практического применения: <br><br> <ul> <li>- С чего начать и к чему стремиться</li> <li>- Как организовать работу команды</li> <li>- Где брать вдохновение</li> <li>- Как из факапа извлечь гениальную идею</li> <li>- Как выйти на рынок с минимальными инвестициями</li> </ul>",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "speakerdeck_id": null,
-        "speakerdeck_url": null,
+        "speakerdeck_id": "c190208712b7470cae4c1e25cc7d470d",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/lean-ux-i-design-thinking-kak-sozdavat-vostriebovannyie-produkty",
+        "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-lean-ux-design-thinking",
         "live_broadcast_url": "http://www.youtube.com/watch?v=It-kMj9pmsM",
         "youtube_url": null
 },
@@ -34,7 +123,7 @@
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/tiestirovshchik-ozhidaniie-vs-rieal-nost",
         "live_broadcast_url": "http://www.youtube.com/watch?v=uwGJMQ4HhYs",
         "youtube_url": null,
-        "speakerdeck_url": "http://www.slideshare.net/TechTalksNSU/vs-61090378"
+        "slideshare_url": "http://www.slideshare.net/TechTalksNSU/vs-61090378"
 },
 {
         "id": 83,
@@ -50,8 +139,8 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "speakerdeck_id": "518d786358e44056ade0d1b51c51b86a",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/roli-i-zadachi-hr-v-rabotie-it-kompanii",
-        "live_broadcast_url": "http://www.youtube.com/watch?v=RspjSPFa3nI",
-        "youtube_url": null,
+        "live_broadcast_url": null,
+        "youtube_url": "https://www.youtube.com/watch?v=SfYf2ih-_QM",
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/hr-it-61090180"
 },
 {
@@ -101,8 +190,9 @@
         "company_pic": false,
         "description": "Чем отличается работа преподавателя Computer Science у нас в НГУ или НГТУ от работы коллег за рубежом в частном или государственном ВУЗе, в аккредитованном или еще не аккредитованном университете, в «обычном» или исследовательском университете, в европейской, британской или американской системах высшего образования? <br><br> Личные впечатления о своей работе в Австралии (University of Technology, Sydney), в Южной Корее (Korean Advance Institute of Science and Technology, Chong-Ang University), Новой Зеландии (University of Canterbury, Christchurch), в Казахстане (Nazarbayev University) расскажет <a href=\"http://persons.iis.nsk.su/en/person/shilov\">Николай Вячеславович Шилов</a>, с.н.с. ИСИ СО РАН. <br><br> Кроме того (так как выступление состоится 1 апреля в традиционный в День Математика), будут бонусы для тех, кто, погружаясь в ИТ, не разучился получать удовольствия от математики! ",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "speakerdeck_id": null,
-        "speakerdeck_url": null,
+        "speakerdeck_id": "ed76ae69baf94dd89442fda050d6cb72",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-zhivietsia-priepodavatieliu-computer-science-u-nas-i-u-nikh",
+        "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-computer-science",
         "live_broadcast_url": null,
         "youtube_url": "https://www.youtube.com/watch?v=8tDLBJTsnY0"
 },
@@ -125,7 +215,6 @@
         "youtube_url": "https://www.youtube.com/watch?v=hpDf6Y5nBH4",
         "custom_url": "yandex"
 },
-
 {
         "id": 78,
         "date": "2016-03-22",
@@ -144,8 +233,6 @@
         "youtube_url": "http://www.youtube.com/watch?v=r_kmr8xQq8A"
 
 },
-
-
 {
         "id": 77,
         "date": "2016-03-21",
@@ -176,8 +263,9 @@
         "company_pic": true,
         "description": "Представьте, что к вам пришла крупная столичная компания, дала (почти) неограниченный бюджет и попросила открыть в вашем городе свой офис разработки. Похоже на сюжет из сказки? Тем не менее, именно такая ситуация случилась со мной год назад.<br><br>В этом докладе я освещу следующие аспекты создания с нуля небольшого IT-отдела крупного федерального ритейлера:<br><br><ul><li>- поиск и аренда офиса</li><li>- найм сотрудников</li><li>- выстраивание процессов внутри команды</li><li>- взаимодействие с головным офисом</li><li>- юридические вопросы </li></ul><br>Помимо этого я расскажу о подводных камнях такого сценария, о примерном бюджете на создание офиса разработки из 7 человек, а также поделюсь множеством анекдотов, которые случились со мной, когда я проходил этот путь.",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
-        "speakerdeck_id": null,
-        "speakerdeck_url": null,
+        "speakerdeck_id": "810577abc0e1404393573ffc65920732",
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/otkryvaiem-ofis-razrabotki-s-nulia",
+        "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61786636",
         "live_broadcast_url": "http://www.youtube.com/watch?v=fJQEXiayVzk",
         "youtube_url": null
 },
@@ -200,7 +288,6 @@
         "youtube_url": "http://www.youtube.com/watch?v=llxArAp4jD0"
 
 },
-
 {
         "id": 74,
         "date": "2015-12-15",
@@ -396,9 +483,9 @@
         "youtube_url": "http://www.youtube.com/watch?v=v7uBLSm6ft8",
         "speakerdeck_id": "4405196d8c0c48b5b9c94d71ffdf51f5",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-priruchit-drakona-vviedieniie-v-llvm",
-        "live_broadcast_url": "https://plus.google.com/events/ctes98f7uhf19t5jlvlbk24dan4"
+        "live_broadcast_url": "https://plus.google.com/events/ctes98f7uhf19t5jlvlbk24dan4",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-llvm"
 },
-
 {
         "id": 63,
         "date": "2015-07-06",
@@ -416,7 +503,6 @@
         "out_of_the_blue": true,
         "no_materials": true
 },
-
 {
         "id": 62,
         "season": "2014autumn",
@@ -431,9 +517,9 @@
         "location": null,
         "youtube_url": "http://www.youtube.com/watch?v=fla8Mo2vhrY",
         "speakerdeck_id": "22ee362b63a845e98e97e329753098e6",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/zashchita-ot-atak-po-storonnim-kanalam"
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/zashchita-ot-atak-po-storonnim-kanalam",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60905890"
 },
-
 {
         "id": 61 ,
         "season": "2014autumn",
@@ -448,9 +534,9 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=blXQTBiYbzs",
         "speakerdeck_id": "62b1a89803224a33ae02d12e94050047",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/aot-kompiliatsiia-java" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/aot-kompiliatsiia-java",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-aot-java"
 },
-
 {
         "id": 60,
         "season": "2014autumn",
@@ -465,9 +551,9 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=W7Os4or91wA",
         "speakerdeck_id": "ee2691774b5a40d19594527781c86881", 
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/tdd-razrabotka-chieriez-tiestirovaniie-dlia-ios"
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/tdd-razrabotka-chieriez-tiestirovaniie-dlia-ios",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-tdd-ios"
 },
-
 {
         "id": 59,
         "season": "2014autumn",
@@ -482,9 +568,9 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_url": null,
         "speakerdeck_id": "950acee36c804fd995122e003b7d057d",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/avtomatichieskoie-dokazatiel-stvo-tieoriem" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/avtomatichieskoie-dokazatiel-stvo-tieoriem",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60905497"
 },
-
 {
         "id": 58,
         "season": "2014autumn",
@@ -499,9 +585,9 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_url": "http://www.youtube.com/watch?v=6PDtlAzFRlE",
         "speakerdeck_id": "5be241504c660132129f2ee134ae9694",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/chto-takoie-highload" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/chto-takoie-highload",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-highload"
 },
-
 {
         "id": 57,
         "season": "2014autumn",
@@ -516,9 +602,9 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_url": "http://www.youtube.com/watch?v=f6Xk-CLUcF4",
         "speakerdeck_id": "6ca75c704fbc0132493b0a7b94f992b5",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/back-to-the-future-funktsional-noie-proghrammirovaniie-vchiera-i-sieghodnia" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/back-to-the-future-funktsional-noie-proghrammirovaniie-vchiera-i-sieghodnia",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-back-to-the-future"
 },
-
 {
         "id": 56,
         "season": "2014autumn",
@@ -533,9 +619,9 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_url": "http://www.youtube.com/watch?v=3ANs6dccr6w",
         "speakerdeck_id": "91dd55904627013234d17a3f7c519e69",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/vsio-chto-vy-khotieli-znat-pro-unicode-no-boialis-sprosit"
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/vsio-chto-vy-khotieli-znat-pro-unicode-no-boialis-sprosit",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-unicode"
 },
-
 {
         "id": 55,
         "season": "2014autumn",
@@ -550,9 +636,9 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_url": "http://www.youtube.com/watch?v=fJCSYL9jc7Y",
         "speakerdeck_id": "5dc1d5c03bd20132ed0c3a2ff4764c03",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/side-channel-attacks" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/side-channel-attacks",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-side-channel-attacks"
 },
-
 {
         "id": 54,
         "season": "2014autumn",
@@ -567,9 +653,9 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",       
         "youtube_url": "http://www.youtube.com/watch?v=BqtLzbhYuh8",
         "speakerdeck_id": "e8f7ffd035e80132343b52ef75abd035",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/pressing-play-at-spotify" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/pressing-play-at-spotify", 
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-pressing-play-at-spotify"
 },
-
 {
         "id": 53,
         "season": "2014autumn",
@@ -585,7 +671,6 @@
         "youtube_url": "http://www.youtube.com/watch?v=wMQH-Jd65Mo",
         "speakerdeck_id": null 
 },
-
 {
         "id": 52,
         "season": "2014autumn",
@@ -600,9 +685,9 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=9sWD3RBwz30",
         "speakerdeck_id": "9eddb330295d01321a10562d5512248d",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/prokhodim-tiest-dzhoela" 
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/prokhodim-tiest-dzhoela",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60896224"
 },
-
 {
         "id": 51,
         "season": "2014autumn",
@@ -617,9 +702,9 @@
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "youtube_url": "http://www.youtube.com/watch?v=Y4ooPiNgxwo",
         "speakerdeck_id": "a22bdc7024a3013299ff7e85eb08a929",
-        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/machine-learning-for-fun-and-profit"         
+        "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/machine-learning-for-fun-and-profit",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/machine-learning-for-fun-and-profit"     
 },
-
 {
         "id": 50,
         "season": "2014spring",
@@ -634,9 +719,9 @@
         "youtube_url": null,
         "speakerdeck_id": "022b3710bc140131ff382eee13ef8423",         
         "speakerdeck_url": "https://speakerdeck.com/industry101/razrabotka-po-v-inviestitsionnykh-bankakh",
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu"
 },
-
 {
         "id": 49,
         "season": "2014spring",
@@ -650,9 +735,8 @@
         "description": null,
         "youtube_url": null,
         "speakerdeck_id": null,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 48,
         "season": "2014spring",
@@ -670,7 +754,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61128604",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 47,
         "season": "2014spring",
@@ -688,7 +771,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61128490",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 46,
         "season": "2014spring",
@@ -706,7 +788,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61128405",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 45,
         "season": "2014spring",
@@ -724,7 +805,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61128353",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 44,
         "season": "2014spring",
@@ -742,7 +822,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61128181",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"        
 },
-
 {
         "id": 43,
         "season": "2014spring",
@@ -760,7 +839,6 @@
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
         "out_of_the_blue": true
 },
-
 {
         "id": 42,
         "season": "2014spring",
@@ -778,7 +856,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61127834",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 41,
         "season": "2014spring",
@@ -796,7 +873,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-5",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 40,
         "season": "2014spring",
@@ -814,7 +890,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-qa-61127689",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 39,
         "season": "2013autumn",
@@ -832,7 +907,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61127245",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 38,
         "season": "2013autumn",
@@ -848,7 +922,6 @@
         "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 37,
         "season": "2013autumn",
@@ -864,7 +937,6 @@
         "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 36,
         "season": "2013autumn",
@@ -882,7 +954,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-unicode-61127082",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 35,
         "season": "2013autumn",
@@ -900,7 +971,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-dlang",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 34,
         "season": "2013autumn",
@@ -918,7 +988,6 @@
 	"slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-c",
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 33,
         "season": "2013autumn",
@@ -934,7 +1003,6 @@
         "speakerdeck_id": null,
 	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 32,
         "season": "2013autumn",
@@ -949,9 +1017,9 @@
         "youtube_url": null,
         "speakerdeck_id": "28d8d630285a01310ba502e468fe5747",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/proiektsii-futamury-i-chastichnyie-vychislieniia-rienat-idrisov"         ,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60906372"
 },
-
 {
         "id": 31,
         "season": "2013autumn",
@@ -966,9 +1034,9 @@
         "youtube_url": null,
         "speakerdeck_id": "9aa8773028b7013181ff6af78a846f16",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/vviedieniie-v-diemostsienu-ivan-avdieiev",
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-64kb-4kb-1kb-256-bytes"
 },
-
 {
         "id": 30,
         "season": "2013autumn",
@@ -983,9 +1051,9 @@
         "youtube_url": null,
         "speakerdeck_id": "efd3fcb0285a0131549e2e8802ef8f40",
         "speakerdeck_url":"https://speakerdeck.com/techtalksnsu/informatsionnaia-biezopasnost-ruslan-piermiakov"         ,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60906733"
 },
-
 {
         "id": 29,
         "season": "2013autumn",
@@ -1000,9 +1068,9 @@
         "youtube_url": null,
         "speakerdeck_id": "493af050285801310ba402e468fe5747",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/arkhitiektura-skype-alieksandr-komissarov"         ,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-skype"
 },
-
 {
         "id": 28,
         "season": "2013autumn",
@@ -1017,9 +1085,9 @@
         "youtube_url": null,
         "speakerdeck_id": "a8a8cfa028570131549e2e8802ef8f40",
         "speakerdeck_url": "https://speakerdeck.com/techtalksnsu/kak-sdielat-dota-like-ighru-siemion-korzunov"         ,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-dotalike"
 },
-
 {
         "id": 27,
         "season": "2013spring",
@@ -1034,9 +1102,9 @@
         "youtube_url": "http://www.youtube.com/watch?v=F2YptTuVM6A",
         "speakerdeck_id": "52e5fde0a126013053a74a029d149531",
         "speakerdeck_url": "https://speakerdeck.com/industry101/mikhail-iermolienko-piervyi-opyt-ustroistva-na-rabotu",
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61096502"
 },
-
 {
         "id": 26,
         "season": "2013spring",
@@ -1050,9 +1118,8 @@
         "description": null,
         "youtube_url": null,
         "speakerdeck_id": null,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 25,
         "season": "2013spring",
@@ -1067,9 +1134,9 @@
         "youtube_url": "http://www.youtube.com/watch?v=vIf0lPlSoCc",
         "speakerdeck_id": "1e614b3099cf013061f40edce4aa244a",
         "speakerdeck_url": "https://speakerdeck.com/industry101/anton-kochiepasov-rabota-v-amierikanskikh-kompaniiakh-ot-sobiesiedovaniia-do-uvol-nieniia",
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60907485"
 },
-
 {
         "id": 24,
         "season": "2013spring",
@@ -1084,9 +1151,9 @@
         "youtube_url": "http://www.youtube.com/watch?v=jw4QKTFds3c",
         "speakerdeck_id": "2fe200908d9e0130e44822000a9d03e8",         
         "speakerdeck_url": "https://speakerdeck.com/industry101/sierghiei-vysotskii-krasochnyi-mir-tiestirovaniia",
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60907588"
 },
-
 {
         "id": 23,
         "season": "2013spring",
@@ -1101,9 +1168,9 @@
         "youtube_url": null,
         "speakerdeck_id": "fe126d8089fc0130b11712313d1a1d3b",
         "speakerdeck_url": "https://speakerdeck.com/industry101/nikita-prokopov-kak-rabotat-v-kaliforniiskom-startapie-nie-uiezzhaia-iz-rossii"      ,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60907696"
 },
-
 {
         "id": 22,
         "season": "2013spring",
@@ -1118,9 +1185,9 @@
         "youtube_url": "http://www.youtube.com/watch?v=NRa4SlubEEg",
         "speakerdeck_id": "c26bb87084310130300612313b101275",
         "speakerdeck_url": "https://speakerdeck.com/industry101/rienat-idrisov-chto-mozhiet-dat-it-spietsialistu-rabota-v-nii"       ,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-it"
 },
-
 {
         "id": 21,
         "season": "2013spring",
@@ -1135,9 +1202,9 @@
         "youtube_url": "http://www.youtube.com/watch?v=qTEU5aw7xMs",
         "speakerdeck_id": "8490b7d084300130a87112313d1860bb",
         "speakerdeck_url": "https://speakerdeck.com/industry101/oliegh-godovykh-olimpiadnoie-proghrammirovaniie-i-motivatsiia-k-vysshiemu-obrazovaniiu",
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60908102"
 },
-
 {
         "id": 20,
         "season": "2013spring",
@@ -1152,9 +1219,9 @@
         "youtube_url": "http://www.youtube.com/watch?v=oHOZMFO0cCY",
         "speakerdeck_id": "85fcbc50842f013081d822000a1e92d1",
         "speakerdeck_url": "https://speakerdeck.com/industry101/sasha-fienstier-rabota-v-tiekhpoddierzhkie-i-vnutrienniaia-razrabotka"    ,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60908291"
 },
-
 {
         "id": 19,
         "season": "2013spring",
@@ -1168,9 +1235,8 @@
         "description": null,
         "youtube_url": null,
         "speakerdeck_id": null,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 18,
         "season": "2013spring",
@@ -1185,9 +1251,8 @@
         "youtube_url": null,
         "speakerdeck_id": null,
         "speakerdeck_url": "http://prezi.com/xphxb90f-afn/sales-managers-work",
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 17,
         "season": "2013spring",
@@ -1202,7 +1267,8 @@
         "youtube_url": null,
         "speakerdeck_id": "5a241a008435013081d822000a1e92d1", 
         "speakerdeck_url": "https://speakerdeck.com/industry101/alieksandr-poghriebniak-obzor-ighrovoi-industrii",
-        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"        
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223",
+        "slideshare_url":"http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-60908747"      
 
 },
 {
@@ -1218,9 +1284,8 @@
         "description": null,
         "youtube_url": "http://www.youtube.com/watch?v=PaRoSFU4xC4",
         "speakerdeck_id": null,
-	"location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
+        "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 15,
         "season": "2013spring",
@@ -1256,7 +1321,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-it-it",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 13,
         "season": "2012spring",
@@ -1273,7 +1337,6 @@
         "slideshare_url": null,
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 12,
         "season": "2012spring",
@@ -1290,7 +1353,6 @@
         "slideshare_url": null,
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 11,
         "season": "2012spring",
@@ -1308,7 +1370,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/it-61097489",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 10,
         "season": "2012spring",
@@ -1326,7 +1387,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61096502",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 9,
         "season": "2012spring",
@@ -1344,7 +1404,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61096483",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 8,
         "season": "2012spring",
@@ -1362,7 +1421,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-it-61096291",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 7,
         "season": "2012spring",
@@ -1380,7 +1438,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-61096264",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 6,
         "season": "2012spring",
@@ -1398,7 +1455,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-it-61096236",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 5,
         "season": "2012spring",
@@ -1416,7 +1472,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-open-source",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 4,
         "season": "2012spring",
@@ -1434,7 +1489,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-2",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 3,
         "season": "2012spring",
@@ -1452,7 +1506,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-scrum-agile",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 2,
         "season": "2012spring",
@@ -1470,7 +1523,6 @@
         "slideshare_url": "http://www.slideshare.net/TechTalksNSU/tech-talks-nsu-it-61096136",
         "location": "Новый спорткомплекс НГУ, <a href=\"http://go.2gis.com/x5ox\">Пирогова 12/1</a>, аудитория 223"
 },
-
 {
         "id": 1,
         "season": "2012spring",

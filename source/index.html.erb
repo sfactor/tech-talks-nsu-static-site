@@ -1,10 +1,10 @@
 ---
-lecturer_pic_style: "width:105%"
+lecturer_pic_style: "width:72%"
 ---
-<% lectures = [89] %>
+<% lectures = [92] %>
 
 
-<% lecture_count = data.lectures.lectures.select{|l| l.season != '2016spring'}.count %>
+<% lecture_count = data.lectures.lectures.select{|l| l.season != '2016autumn'}.count %>
 <% lecture_word = inflict_lectures (lecture_count) %>
 
 
@@ -20,7 +20,6 @@ lecturer_pic_style: "width:105%"
 </div>
 
 <section class="content-box">
-	<div class="secondary-title text-center"><b>Тема весеннего сезона 2016 года: «Профессии и карьера в IT»</b></div>
 <% if false %>
     <div class="med-title text-center">
         <br/>
@@ -51,7 +50,7 @@ lecturer_pic_style: "width:105%"
 
 <section class="content-box">
 			<ul class="lectures-list">
-				<% for l in data.lectures.lectures.select {|l| l.season == '2016spring' && !(lectures.include? l.id) }.sort {|a,b| b.id <=> a.id}  %>
+				<% for l in data.lectures.lectures.select {|l| l.season == '2016autumn' && !(lectures.include? l.id) }.sort {|a,b| b.id <=> a.id}  %>
 				<li class="lecture-list-box old">
 					<div class="lecture-list-date" >
 						<%= russian_date(l.date, true) %>
@@ -62,9 +61,11 @@ lecturer_pic_style: "width:105%"
 
 								<%= l.out_of_the_blue.nil? ? "" : "(Внеочередная лекция) " %><%= l.title %></strong></a>
 						</h2>
-						<div class="lecture-author">
-							<%= l.lecturer %>, <%= l.lecturer_company %>
-						</div>
+		                <div class="lecture-author"><%= l.lecturer %>
+		                        <% if l.lecturer_company != "" %>
+		                                , <%= l.lecturer_company %>
+		                        <% end %>
+		                </div>
 						<% if l.youtube_url %>
 						<a href="<%= base_url %>/<%= l.id %>" class="live-link live-link_past" title="Видеозапись">Видео лекции</a>
 						<% end %>
@@ -76,7 +77,6 @@ lecturer_pic_style: "width:105%"
 				<% end %>
 			</ul>
 </section>
-
 
 <div class = "text-center med-title">
 		А еще можете посмотреть <a href="<%= base_url%>/archive"><%= lecture_count %> <%= lecture_word %></a>, которые мы читали в прошлых сезонах

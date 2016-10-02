@@ -48,7 +48,11 @@ end
                                         <h1 class="big-title lecture-title">
                                                 <a href="<%= base_url %>/<%= current_lecture_id %>"><%= lecture.title %></a>
                                         </h1>
-                                        <div class="lecture-author"><%= lecture.lecturer%>, <%= lecture.lecturer_company %></div>
+                                        <div class="lecture-author"><%= lecture.lecturer %>
+                                                <% if lecture.lecturer_company != "" %>
+                                                        , <%= lecture.lecturer_company %>
+                                                <% end %>
+                                        </div>
                                         <div class="lecture-text">
                                         <%= lecture.description%>
                                         </div>
